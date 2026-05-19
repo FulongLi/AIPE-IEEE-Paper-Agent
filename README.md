@@ -1,16 +1,16 @@
 # IEEE Paper Agent
 
-一个用于撰写、整理和审查 IEEE 风格科研论文的 LaTeX 模板与写作 Skill 仓库。
+A LaTeX template and writing-skill repository for drafting, organizing, and reviewing IEEE-style research papers.
 
-这个仓库的目标很简单：让第一次打开它的人可以快速找到合适的 IEEE 模板，并用配套的论文写作方法，把研究内容整理成更像可投稿论文的结构。
+This repository helps authors quickly find the right IEEE LaTeX template and use a structured writing workflow to turn research ideas into publication-ready manuscripts.
 
-## 这个仓库做什么
+## What This Repository Does
 
-- 收集常用 IEEE LaTeX 模板，包括 conference、Transactions/journal、IEEE Access、TAI、OJCSYS、OJPEL 等方向。
-- 提供一个可复用的 Codex Skill：`ieee-paper-latex-writing`，用于指导 IEEE 论文写作、LaTeX 修改、投稿前检查和审稿意见回复。
-- 把“怎么写好 IEEE 论文”的经验拆成可执行流程：论文故事线、Introduction、Related Work、Method、Experiments、Figures/Tables、LaTeX submission checklist。
+- Collects common IEEE LaTeX templates, including conference, Transactions/journal, IEEE Access, TAI, OJCSYS, and OJPEL formats.
+- Provides a reusable Codex Skill, `ieee-paper-latex-writing`, for IEEE paper writing, LaTeX editing, pre-submission checks, and reviewer-response preparation.
+- Organizes practical research-writing knowledge into executable workflows: paper storyline, Introduction, Related Work, Method, Experiments, Figures/Tables, and LaTeX submission checks.
 
-## 仓库结构
+## Repository Structure
 
 ```text
 IEEE-Paper-Agent/
@@ -30,86 +30,86 @@ IEEE-Paper-Agent/
         └── references/
 ```
 
-## 如何使用 LaTeX 模板
+## How to Use the LaTeX Templates
 
-1. 根据目标 venue 选择模板：
-   - IEEE conference：优先看 `IEEE paper Template/IEEE-conference-template-062824/`
-   - IEEE Transactions / journal：优先看 `IEEE paper Template/IEEE-Transactions-LaTeX2e-templates-and-instructions/`
-   - IEEE Access：看 `IEEE paper Template/ACCESS_latex_template_20240429/`
-   - TAI / OJCSYS / OJPEL：使用对应命名的模板目录
+1. Choose a template based on the target venue:
+   - IEEE conference: start with `IEEE paper Template/IEEE-conference-template-062824/`
+   - IEEE Transactions / journal: start with `IEEE paper Template/IEEE-Transactions-LaTeX2e-templates-and-instructions/`
+   - IEEE Access: use `IEEE paper Template/ACCESS_latex_template_20240429/`
+   - TAI / OJCSYS / OJPEL: use the corresponding template directory
 
-2. 复制对应模板目录，作为你的论文工作目录。
+2. Copy the selected template directory and use the copy as your paper workspace.
 
-3. 在复制后的目录里修改 `.tex` 文件、图片和 BibTeX 文件。不要直接改官方 `.cls` 文件，除非投稿要求明确要求。
+3. Edit the `.tex` file, figures, and BibTeX files inside your copied workspace. Do not modify official `.cls` files unless the target venue explicitly requires it.
 
-4. 使用本地 LaTeX 环境编译，例如：
+4. Compile the paper with your local LaTeX environment, for example:
 
 ```bash
 latexmk -pdf main.tex
 ```
 
-如果模板文件名不是 `main.tex`，请替换成对应 `.tex` 文件名。
+If the template uses a different `.tex` filename, replace `main.tex` with the correct file name.
 
-## 如何使用写作 Skill
+## How to Use the Writing Skill
 
-Skill 目录位于：
+The skill is located at:
 
 ```text
 skills/ieee-paper-latex-writing/
 ```
 
-它适合这些任务：
+It is useful for:
 
-- 从研究想法生成 IEEE paper outline
-- 改写 abstract、introduction、related work、method、experiment section
-- 检查论文贡献点是否清晰
-- 审查 LaTeX 文件是否符合 IEEE 投稿习惯
-- 检查图、表、公式、引用和参考文献
-- 整理 reviewer comments 和 rebuttal / response letter
+- Generating an IEEE paper outline from a research idea
+- Rewriting abstracts, introductions, related work, methods, and experiment sections
+- Checking whether the paper contributions are clear and defensible
+- Reviewing whether a LaTeX manuscript follows IEEE submission practices
+- Checking figures, tables, equations, citations, and references
+- Organizing reviewer comments and preparing rebuttal / response letters
 
-在 Codex 中可以这样使用：
+Example Codex prompt:
 
 ```text
 Use the skill at skills/ieee-paper-latex-writing to review my IEEE paper draft.
 ```
 
-或者：
+Another example:
 
 ```text
 Use ieee-paper-latex-writing to help me rewrite the abstract and introduction for an IEEE Transactions paper.
 ```
 
-## Skill 里的核心资料
+## Core Skill Materials
 
-- `SKILL.md`：主工作流，说明什么时候使用这个 skill，以及整体写作和 LaTeX 审查流程。
-- `references/writing-playbook.md`：IEEE 科研论文写作方法，包括标题、摘要、Introduction、Related Work、Methods、Experiments、图表和语气。
-- `references/latex-submission-checklist.md`：IEEE LaTeX 投稿前检查清单。
-- `references/reviewer-response.md`：审稿意见回复和 revision workflow。
+- `SKILL.md`: Main workflow that explains when to use the skill and how to approach IEEE writing and LaTeX review.
+- `references/writing-playbook.md`: Writing guidance for IEEE research papers, including titles, abstracts, Introduction, Related Work, Methods, Experiments, figures, tables, and tone.
+- `references/latex-submission-checklist.md`: IEEE LaTeX pre-submission checklist.
+- `references/reviewer-response.md`: Reviewer-response and revision workflow.
 
-## 推荐工作流
+## Recommended Workflow
 
-1. 先选目标 IEEE venue 和模板。
-2. 用 Skill 梳理论文主线：
-   - 研究问题是什么？
-   - 当前方法缺口是什么？
-   - 你的核心方法是什么？
-   - 你的贡献点是什么？
-   - 哪些实验或理论结果支撑这些贡献？
-3. 写出 outline，再写 abstract 和 introduction。
-4. 填充 method、experiment、related work、conclusion。
-5. 编译 PDF，并用 LaTeX checklist 检查格式、引用、图表、公式和页面限制。
-6. 投稿前进行一次 publication-readiness review。
+1. Choose the target IEEE venue and template.
+2. Use the skill to clarify the paper spine:
+   - What is the research problem?
+   - What gap exists in current methods?
+   - What is the core method or idea?
+   - What are the main contributions?
+   - What experiments, theory, or evidence support those contributions?
+3. Draft the outline, then write the abstract and introduction.
+4. Fill in the method, experiment, related work, and conclusion sections.
+5. Compile the PDF and use the LaTeX checklist to review formatting, citations, figures, equations, and page limits.
+6. Run a publication-readiness review before submission.
 
-## 适合谁
+## Who This Is For
 
-- 正在写 IEEE conference paper 的学生或研究者
-- 准备 IEEE Transactions / journal 投稿的作者
-- 想把 LaTeX 论文模板、写作流程和投稿检查流程标准化的团队
-- 想用 AI agent 辅助科研写作、重写和审稿回复的人
+- Students and researchers writing IEEE conference papers
+- Authors preparing IEEE Transactions or journal submissions
+- Research teams that want to standardize LaTeX templates, writing workflows, and submission checks
+- Anyone using an AI agent to support research writing, rewriting, and reviewer-response preparation
 
-## 注意事项
+## Notes
 
-- 本仓库提供模板和写作流程，不替代目标会议或期刊的最新 author guidelines。
-- 投稿前请始终检查目标 venue 官网的 page limit、匿名要求、copyright、bibliography style 和 supplementary material 规则。
-- 不要为了压页数随意修改 IEEE 官方 class、页边距、字体或行距。
-- 写作 Skill 不会自动生成真实实验结果、引用或数据；所有 scientific claims 都必须由你的实验、理论或可信文献支撑。
+- This repository provides templates and writing workflows; it does not replace the latest author guidelines from the target conference or journal.
+- Before submission, always check the target venue website for page limits, anonymization rules, copyright requirements, bibliography style, and supplementary-material rules.
+- Do not change official IEEE class files, margins, fonts, or line spacing just to reduce page count.
+- The writing skill does not generate real experimental results, citations, or data. All scientific claims must be supported by your experiments, theory, or credible literature.
