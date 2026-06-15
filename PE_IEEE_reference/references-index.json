@@ -1,12 +1,12 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-06-15T16:58:32+00:00",
+  "generated_at": "2026-06-15T17:17:01+00:00",
   "source_directory": "PE_IEEE_reference",
-  "record_count": 3248,
-  "duplicate_key_count": 87,
+  "record_count": 3295,
+  "duplicate_key_count": 91,
   "verification_status_counts": {
     "arxiv-mentioned": 3,
-    "doi-present": 3210,
+    "doi-present": 3257,
     "needs-verification": 35
   },
   "duplicate_keys": {
@@ -344,6 +344,22 @@
     "6954048": [
       "johann_w_kolar_reference.bib",
       "Thomas_Guillod_reference.bib"
+    ],
+    "8733068": [
+      "tim_c_green_reference.bib",
+      "xiangning_he_reference.bib"
+    ],
+    "9296809": [
+      "tim_c_green_reference.bib",
+      "xiangning_he_reference.bib"
+    ],
+    "9967953": [
+      "tim_c_green_reference.bib",
+      "xiangning_he_reference.bib"
+    ],
+    "10274873": [
+      "tim_c_green_reference.bib",
+      "xiangning_he_reference.bib"
     ],
     "9714353": [
       "xiangning_he_reference.bib",
@@ -51959,6 +51975,938 @@
       "keywords": "Power system measurements;Density measurement;Semiconductor devices;Bridge circuits;Prototypes;Switches;Transformers;Multi-Port Converter;Charging System;DAB;Dual Active Bridge;DC/DC Converter;Four-Leg Inverter",
       "topic": "Thomas Guillod",
       "source_file": "Thomas_Guillod_reference.bib",
+      "verification_status": "doi-present"
+    },
+    {
+      "key": "8274925",
+      "entry_type": "article",
+      "title": "A Compact Modular Multilevel DC–DC Converter for High Step-Ratio MV and HV Use",
+      "authors": [
+        "Xin Xiang",
+        "Xiaotian Zhang",
+        "Thomas Luth",
+        "Michael M. C. Merlin",
+        "Timothy C. Green"
+      ],
+      "year": "2018",
+      "venue": "IEEE Transactions on Industrial Electronics",
+      "doi": "10.1109/TIE.2018.2793249",
+      "url": "https://ieeexplore.ieee.org/document/8274925/",
+      "keywords": "",
+      "topic": "tim c green",
+      "source_file": "tim_c_green_reference.bib",
+      "verification_status": "doi-present"
+    },
+    {
+      "key": "8633435",
+      "entry_type": "article",
+      "title": "Comparative Optimization Design of a Modular Multilevel Converter Tapping Cells and a 2L-VSC for Hybrid LV ac/dc Microgrids",
+      "authors": [
+        "Amel Lachichi",
+        "Adria Junyent-Ferre",
+        "Tim C. Green"
+      ],
+      "year": "2019",
+      "venue": "IEEE Transactions on Industry Applications",
+      "doi": "10.1109/TIA.2019.2897263",
+      "url": "https://ieeexplore.ieee.org/document/8633435/",
+      "keywords": "",
+      "topic": "tim c green",
+      "source_file": "tim_c_green_reference.bib",
+      "verification_status": "doi-present"
+    },
+    {
+      "key": "8352023",
+      "entry_type": "article",
+      "title": "A Push–Pull Modular-Multilevel-Converter-Based Low Step-Up Ratio DC Transformer",
+      "authors": [
+        "Xiaotian Zhang",
+        "Xin Xiang",
+        "Timothy C. Green",
+        "Xu Yang",
+        "Feng Wang"
+      ],
+      "year": "2019",
+      "venue": "IEEE Transactions on Industrial Electronics",
+      "doi": "10.1109/TIE.2018.2823665",
+      "url": "https://ieeexplore.ieee.org/document/8352023/",
+      "keywords": "",
+      "topic": "tim c green",
+      "source_file": "tim_c_green_reference.bib",
+      "verification_status": "doi-present"
+    },
+    {
+      "key": "8423720",
+      "entry_type": "article",
+      "title": "Large Step Ratio Input-Series–Output-Parallel Chain-Link DC–DC Converter",
+      "authors": [
+        "Xiaotian Zhang",
+        "Mofan Tian",
+        "Xin Xiang",
+        "Javier Pereda",
+        "Timothy C. Green",
+        "Xu Yang"
+      ],
+      "year": "2019",
+      "venue": "IEEE Transactions on Power Electronics",
+      "doi": "10.1109/TPEL.2018.2861702",
+      "url": "https://ieeexplore.ieee.org/document/8423720/",
+      "keywords": "",
+      "topic": "tim c green",
+      "source_file": "tim_c_green_reference.bib",
+      "verification_status": "doi-present"
+    },
+    {
+      "key": "8636230",
+      "entry_type": "article",
+      "title": "Transfverter: Imbuing Transformer-Like Properties in an Interlink Converter for Robust Control of a Hybrid AC–DC Microgrid",
+      "authors": [
+        "Yunjie Gu",
+        "Yitong Li",
+        "Hyeong-Jun Yoo",
+        "Thai-Thanh Nguyen",
+        "Xin Xiang",
+        "Hak-Man Kim",
+        "Adria Junyent-Ferre",
+        "Timothy C. Green"
+      ],
+      "year": "2019",
+      "venue": "IEEE Transactions on Power Electronics",
+      "doi": "10.1109/TPEL.2019.2897460",
+      "url": "https://ieeexplore.ieee.org/document/8636230/",
+      "keywords": "",
+      "topic": "tim c green",
+      "source_file": "tim_c_green_reference.bib",
+      "verification_status": "doi-present"
+    },
+    {
+      "key": "8374919",
+      "entry_type": "article",
+      "title": "Thyristor/Diode-Bypassed Submodule Power Groups for Improved Efficiency in Modular Multilevel Converters",
+      "authors": [
+        "Paul D. Judge",
+        "Michael M.C. Merlin",
+        "Tim C. Green",
+        "David R. Trainer",
+        "Konstantin Vershinin"
+      ],
+      "year": "2019",
+      "venue": "IEEE Transactions on Power Delivery",
+      "doi": "10.1109/TPWRD.2018.2843390",
+      "url": "https://ieeexplore.ieee.org/document/8374919/",
+      "keywords": "",
+      "topic": "tim c green",
+      "source_file": "tim_c_green_reference.bib",
+      "verification_status": "doi-present"
+    },
+    {
+      "key": "8496872",
+      "entry_type": "article",
+      "title": "Modular Multilevel Converter With Partially Rated Integrated Energy Storage Suitable for Frequency Support and Ancillary Service Provision",
+      "authors": [
+        "Paul D. Judge",
+        "Tim C. Green"
+      ],
+      "year": "2019",
+      "venue": "IEEE Transactions on Power Delivery",
+      "doi": "10.1109/TPWRD.2018.2874209",
+      "url": "https://ieeexplore.ieee.org/document/8496872/",
+      "keywords": "",
+      "topic": "tim c green",
+      "source_file": "tim_c_green_reference.bib",
+      "verification_status": "doi-present"
+    },
+    {
+      "key": "8493568",
+      "entry_type": "article",
+      "title": "A Modular Multilevel DC–DC Converter With a Compact Sub-Module Stack Suited to Low Step Ratios",
+      "authors": [
+        "Xin Xiang",
+        "Xiaotian Zhang",
+        "Geraint P. Chaffey",
+        "Timothy C. Green"
+      ],
+      "year": "2019",
+      "venue": "IEEE Transactions on Power Delivery",
+      "doi": "10.1109/TPWRD.2018.2874970",
+      "url": "https://ieeexplore.ieee.org/document/8493568/",
+      "keywords": "",
+      "topic": "tim c green",
+      "source_file": "tim_c_green_reference.bib",
+      "verification_status": "doi-present"
+    },
+    {
+      "key": "9024227",
+      "entry_type": "article",
+      "title": "Interpreting Frame Transformations in AC Systems as Diagonalization of Harmonic Transfer Functions",
+      "authors": [
+        "Yitong Li",
+        "Yunjie Gu",
+        "Timothy C. Green"
+      ],
+      "year": "2020",
+      "venue": "IEEE Transactions on Circuits and Systems I: Regular Papers",
+      "doi": "10.1109/TCSI.2020.2976754",
+      "url": "https://ieeexplore.ieee.org/document/9024227/",
+      "keywords": "",
+      "topic": "tim c green",
+      "source_file": "tim_c_green_reference.bib",
+      "verification_status": "doi-present"
+    },
+    {
+      "key": "9145694",
+      "entry_type": "article",
+      "title": "Analysis and Investigation of Internal AC Frequency to Minimize AC Current Magnitude and Reactive Power Circulation in Chain-Link Modular Multilevel Direct DC–DC Converters",
+      "authors": [
+        "Xin Xiang",
+        "Xiaotian Zhang",
+        "Yunjie Gu",
+        "Geraint P. Chaffey",
+        "Timothy C. Green"
+      ],
+      "year": "2020",
+      "venue": "IEEE Transactions on Circuits and Systems I: Regular Papers",
+      "doi": "10.1109/TCSI.2020.3008685",
+      "url": "https://ieeexplore.ieee.org/document/9145694/",
+      "keywords": "",
+      "topic": "tim c green",
+      "source_file": "tim_c_green_reference.bib",
+      "verification_status": "doi-present"
+    },
+    {
+      "key": "8694013",
+      "entry_type": "article",
+      "title": "Comparative Analysis of an MV Neutral Point Clamped AC-CHB Converter With DC Fault Ride-Through Capability",
+      "authors": [
+        "Caspar T. Collins",
+        "Tim C. Green"
+      ],
+      "year": "2020",
+      "venue": "IEEE Transactions on Industrial Electronics",
+      "doi": "10.1109/TIE.2019.2907511",
+      "url": "https://ieeexplore.ieee.org/document/8694013/",
+      "keywords": "",
+      "topic": "tim c green",
+      "source_file": "tim_c_green_reference.bib",
+      "verification_status": "doi-present"
+    },
+    {
+      "key": "8795592",
+      "entry_type": "article",
+      "title": "Trapezoidal Current Modulation for Bidirectional High-Step-Ratio Modular DC–DC Converters",
+      "authors": [
+        "Yang Qiao",
+        "Xiaotian Zhang",
+        "Xin Xiang",
+        "Xu Yang",
+        "Timothy C. Green"
+      ],
+      "year": "2020",
+      "venue": "IEEE Transactions on Power Electronics",
+      "doi": "10.1109/TPEL.2019.2935028",
+      "url": "https://ieeexplore.ieee.org/document/8795592/",
+      "keywords": "",
+      "topic": "tim c green",
+      "source_file": "tim_c_green_reference.bib",
+      "verification_status": "doi-present"
+    },
+    {
+      "key": "8906076",
+      "entry_type": "article",
+      "title": "Analysis and Criterion for Inherent Balance Capability in Modular Multilevel DC–AC–DC Converters",
+      "authors": [
+        "Xin Xiang",
+        "Yang Qiao",
+        "Yunjie Gu",
+        "Xiaotian Zhang",
+        "Timothy C. Green"
+      ],
+      "year": "2020",
+      "venue": "IEEE Transactions on Power Electronics",
+      "doi": "10.1109/TPEL.2019.2954304",
+      "url": "https://ieeexplore.ieee.org/document/8906076/",
+      "keywords": "",
+      "topic": "tim c green",
+      "source_file": "tim_c_green_reference.bib",
+      "verification_status": "doi-present"
+    },
+    {
+      "key": "8907360",
+      "entry_type": "article",
+      "title": "Modeling of MMCs With Controlled DC-Side Fault-Blocking Capability for DC Protection Studies",
+      "authors": [
+        "Willem Leterme",
+        "Paul D. Judge",
+        "James Wylie",
+        "Tim C. Green"
+      ],
+      "year": "2020",
+      "venue": "IEEE Transactions on Power Electronics",
+      "doi": "10.1109/TPEL.2019.2954743",
+      "url": "https://ieeexplore.ieee.org/document/8907360/",
+      "keywords": "",
+      "topic": "tim c green",
+      "source_file": "tim_c_green_reference.bib",
+      "verification_status": "doi-present"
+    },
+    {
+      "key": "8952752",
+      "entry_type": "article",
+      "title": "Operational Principles of Three-Phase Single Active Bridge DC/DC Converters Under Duty Cycle Control",
+      "authors": [
+        "Yu Sang",
+        "Adria Junyent-Ferre",
+        "Tim C. Green"
+      ],
+      "year": "2020",
+      "venue": "IEEE Transactions on Power Electronics",
+      "doi": "10.1109/TPEL.2020.2964901",
+      "url": "https://ieeexplore.ieee.org/document/8952752/",
+      "keywords": "",
+      "topic": "tim c green",
+      "source_file": "tim_c_green_reference.bib",
+      "verification_status": "doi-present"
+    },
+    {
+      "key": "9025185",
+      "entry_type": "article",
+      "title": "A Power Module for Grid Inverter With In-Built Short-Circuit Fault Current Capability",
+      "authors": [
+        "Weihua Shao",
+        "Ruizhu Wu",
+        "Li Ran",
+        "Huaping Jiang",
+        "Philip A. Mawby",
+        "Daniel J. Rogers",
+        "Tim C. Green",
+        "Thomas Coombs",
+        "Kieran Yardley",
+        "Debaprasad Kastha",
+        "Prabodh Bajpai",
+        "Lin Zhou"
+      ],
+      "year": "2020",
+      "venue": "IEEE Transactions on Power Electronics",
+      "doi": "10.1109/TPEL.2020.2978656",
+      "url": "https://ieeexplore.ieee.org/document/9025185/",
+      "keywords": "",
+      "topic": "tim c green",
+      "source_file": "tim_c_green_reference.bib",
+      "verification_status": "doi-present"
+    },
+    {
+      "key": "8733068",
+      "entry_type": "article",
+      "title": "Motion-Induction Compensation to Mitigate Sub-Synchronous Oscillation in Wind Farms",
+      "authors": [
+        "Yunjie Gu",
+        "Jiao Liu",
+        "Timothy C. Green",
+        "Wuhua Li",
+        "Xiangning He"
+      ],
+      "year": "2020",
+      "venue": "IEEE Transactions on Sustainable Energy",
+      "doi": "10.1109/TSTE.2019.2921662",
+      "url": "https://ieeexplore.ieee.org/document/8733068/",
+      "keywords": "",
+      "topic": "tim c green",
+      "source_file": "tim_c_green_reference.bib",
+      "verification_status": "doi-present"
+    },
+    {
+      "key": "9113340",
+      "entry_type": "article",
+      "title": "On the Dynamics of Inherent Balancing of Modular Multilevel DC–AC–DC Converters",
+      "authors": [
+        "Xin Xiang",
+        "Yunjie Gu",
+        "Kaiwen Chen",
+        "Alessandro Astolfi",
+        "Timothy C. Green"
+      ],
+      "year": "2021",
+      "venue": "IEEE Transactions on Power Electronics",
+      "doi": "10.1109/TPEL.2020.3001431",
+      "url": "https://ieeexplore.ieee.org/document/9113340/",
+      "keywords": "",
+      "topic": "tim c green",
+      "source_file": "tim_c_green_reference.bib",
+      "verification_status": "doi-present"
+    },
+    {
+      "key": "9162492",
+      "entry_type": "article",
+      "title": "Impedance Circuit Model of Grid-Forming Inverter: Visualizing Control Algorithms as Circuit Elements",
+      "authors": [
+        "Yitong Li",
+        "Yunjie Gu",
+        "Yue Zhu",
+        "Adria Junyent-Ferre",
+        "Xin Xiang",
+        "Timothy C. Green"
+      ],
+      "year": "2021",
+      "venue": "IEEE Transactions on Power Electronics",
+      "doi": "10.1109/TPEL.2020.3015158",
+      "url": "https://ieeexplore.ieee.org/document/9162492/",
+      "keywords": "",
+      "topic": "tim c green",
+      "source_file": "tim_c_green_reference.bib",
+      "verification_status": "doi-present"
+    },
+    {
+      "key": "9296809",
+      "entry_type": "article",
+      "title": "Resonant Modular Multilevel DC–DC Converters for Both High and Low Step-Ratio Connections in MVDC Distribution Systems",
+      "authors": [
+        "Xin Xiang",
+        "Yunjie Gu",
+        "Yang Qiao",
+        "Xiaotian Zhang",
+        "Wuhua Li",
+        "Xiangning He",
+        "Timothy C. Green"
+      ],
+      "year": "2021",
+      "venue": "IEEE Transactions on Power Electronics",
+      "doi": "10.1109/TPEL.2020.3045618",
+      "url": "https://ieeexplore.ieee.org/document/9296809/",
+      "keywords": "",
+      "topic": "tim c green",
+      "source_file": "tim_c_green_reference.bib",
+      "verification_status": "doi-present"
+    },
+    {
+      "key": "9216022",
+      "entry_type": "article",
+      "title": "A Delta-Connected Modular Multilevel STATCOM With Partially-Rated Energy Storage for Provision of Ancillary Services",
+      "authors": [
+        "Sohail G. Mian",
+        "Paul D. Judge",
+        "Adri Junyent-Ferr",
+        "Tim C. Green"
+      ],
+      "year": "2021",
+      "venue": "IEEE Transactions on Power Delivery",
+      "doi": "10.1109/TPWRD.2020.3029312",
+      "url": "https://ieeexplore.ieee.org/document/9216022/",
+      "keywords": "",
+      "topic": "tim c green",
+      "source_file": "tim_c_green_reference.bib",
+      "verification_status": "doi-present"
+    },
+    {
+      "key": "9123531",
+      "entry_type": "article",
+      "title": "Impedance-Based Whole-System Modeling for a Composite Grid via Embedding of Frame Dynamics",
+      "authors": [
+        "Yunjie Gu",
+        "Yitong Li",
+        "Yue Zhu",
+        "Timothy C. Green"
+      ],
+      "year": "2021",
+      "venue": "IEEE Transactions on Power Systems",
+      "doi": "10.1109/TPWRS.2020.3004377",
+      "url": "https://ieeexplore.ieee.org/document/9123531/",
+      "keywords": "",
+      "topic": "tim c green",
+      "source_file": "tim_c_green_reference.bib",
+      "verification_status": "doi-present"
+    },
+    {
+      "key": "9149820",
+      "entry_type": "article",
+      "title": "Resilient Secondary Voltage Control of Islanded Microgrids: An ESKBF-Based Distributed Fast Terminal Sliding Mode Control Approach",
+      "authors": [
+        "Pudong Ge",
+        "Yue Zhu",
+        "Tim C. Green",
+        "Fei Teng"
+      ],
+      "year": "2021",
+      "venue": "IEEE Transactions on Power Systems",
+      "doi": "10.1109/TPWRS.2020.3012026",
+      "url": "https://ieeexplore.ieee.org/document/9149820/",
+      "keywords": "",
+      "topic": "tim c green",
+      "source_file": "tim_c_green_reference.bib",
+      "verification_status": "doi-present"
+    },
+    {
+      "key": "9197626",
+      "entry_type": "article",
+      "title": "Provision of Voltage Ancillary Services Through Enhanced TSO-DSO Interaction and Aggregated Distributed Energy Resources",
+      "authors": [
+        "Anastasios Oulis Rousis",
+        "Dimitrios Tzelepis",
+        "Yousef Pipelzadeh",
+        "Goran Strbac",
+        "Campbell D. Booth",
+        "Timothy C. Green"
+      ],
+      "year": "2021",
+      "venue": "IEEE Transactions on Sustainable Energy",
+      "doi": "10.1109/TSTE.2020.3024278",
+      "url": "https://ieeexplore.ieee.org/document/9197626/",
+      "keywords": "",
+      "topic": "tim c green",
+      "source_file": "tim_c_green_reference.bib",
+      "verification_status": "doi-present"
+    },
+    {
+      "key": "9632372",
+      "entry_type": "article",
+      "title": "Priority-Driven Self-Optimizing Power Control Scheme for Interlinking Converters of Hybrid AC/DC Microgrid Clusters in Decentralized Manner",
+      "authors": [
+        "Xiaochao Hou",
+        "Kai Sun",
+        "Ning Zhang",
+        "Fei Teng",
+        "Xin Zhang",
+        "Tim Green"
+      ],
+      "year": "2022",
+      "venue": "IEEE Transactions on Power Electronics",
+      "doi": "10.1109/TPEL.2021.3130112",
+      "url": "https://ieeexplore.ieee.org/document/9632372/",
+      "keywords": "",
+      "topic": "tim c green",
+      "source_file": "tim_c_green_reference.bib",
+      "verification_status": "doi-present"
+    },
+    {
+      "key": "9754995",
+      "entry_type": "article",
+      "title": "Modular Multilevel Matrix Converter as Solid State Transformer for Medium and High Voltage AC Substations",
+      "authors": [
+        "Pablo Bravo",
+        "Javier Pereda",
+        "Michael M. C. Merlin",
+        "Sebastian Neira",
+        "Timothy C. Green",
+        "Felix Rojas"
+      ],
+      "year": "2022",
+      "venue": "IEEE Transactions on Power Delivery",
+      "doi": "10.1109/TPWRD.2022.3166258",
+      "url": "https://ieeexplore.ieee.org/document/9754995/",
+      "keywords": "",
+      "topic": "tim c green",
+      "source_file": "tim_c_green_reference.bib",
+      "verification_status": "doi-present"
+    },
+    {
+      "key": "9451617",
+      "entry_type": "article",
+      "title": "Participation Analysis in Impedance Models: The Grey-Box Approach for Power System Stability",
+      "authors": [
+        "Yue Zhu",
+        "Yunjie Gu",
+        "Yitong Li",
+        "Timothy Green"
+      ],
+      "year": "2022",
+      "venue": "IEEE Transactions on Power Systems",
+      "doi": "10.1109/TPWRS.2021.3088345",
+      "url": "https://ieeexplore.ieee.org/document/9451617/",
+      "keywords": "",
+      "topic": "tim c green",
+      "source_file": "tim_c_green_reference.bib",
+      "verification_status": "doi-present"
+    },
+    {
+      "key": "9677929",
+      "entry_type": "article",
+      "title": "Mapping of Dynamics Between Mechanical and Electrical Ports in SG-IBR Composite Grids",
+      "authors": [
+        "Yitong Li",
+        "Yunjie Gu",
+        "Timothy C. Green"
+      ],
+      "year": "2022",
+      "venue": "IEEE Transactions on Power Systems",
+      "doi": "10.1109/TPWRS.2022.3141882",
+      "url": "https://ieeexplore.ieee.org/document/9677929/",
+      "keywords": "",
+      "topic": "tim c green",
+      "source_file": "tim_c_green_reference.bib",
+      "verification_status": "doi-present"
+    },
+    {
+      "key": "9714816",
+      "entry_type": "article",
+      "title": "Revisiting Grid-Forming and Grid-Following Inverters: A Duality Theory",
+      "authors": [
+        "Yitong Li",
+        "Yunjie Gu",
+        "Timothy C. Green"
+      ],
+      "year": "2022",
+      "venue": "IEEE Transactions on Power Systems",
+      "doi": "10.1109/TPWRS.2022.3151851",
+      "url": "https://ieeexplore.ieee.org/document/9714816/",
+      "keywords": "",
+      "topic": "tim c green",
+      "source_file": "tim_c_green_reference.bib",
+      "verification_status": "doi-present"
+    },
+    {
+      "key": "9796617",
+      "entry_type": "article",
+      "title": "Power System Stability With a High Penetration of Inverter-Based Resources",
+      "authors": [
+        "Yunjie Gu",
+        "Timothy C. Green"
+      ],
+      "year": "2023",
+      "venue": "Proceedings of the IEEE",
+      "doi": "10.1109/JPROC.2022.3179826",
+      "url": "https://ieeexplore.ieee.org/document/9796617/",
+      "keywords": "",
+      "topic": "tim c green",
+      "source_file": "tim_c_green_reference.bib",
+      "verification_status": "doi-present"
+    },
+    {
+      "key": "10179018",
+      "entry_type": "article",
+      "title": "The Evolution of Smart Grids",
+      "authors": [
+        "Chongqing Kang",
+        "Daniel Kirschen",
+        "Timothy C. Green"
+      ],
+      "year": "2023",
+      "venue": "Proceedings of the IEEE",
+      "doi": "10.1109/JPROC.2023.3284213",
+      "url": "https://ieeexplore.ieee.org/document/10179018/",
+      "keywords": "",
+      "topic": "tim c green",
+      "source_file": "tim_c_green_reference.bib",
+      "verification_status": "doi-present"
+    },
+    {
+      "key": "10224064",
+      "entry_type": "article",
+      "title": "The Intrinsic Communication in Power Systems: A New Perspective to Understand Synchronization Stability",
+      "authors": [
+        "Yitong Li",
+        "Timothy C. Green",
+        "Yunjie Gu"
+      ],
+      "year": "2023",
+      "venue": "IEEE Transactions on Circuits and Systems I: Regular Papers",
+      "doi": "10.1109/TCSI.2023.3303644",
+      "url": "https://ieeexplore.ieee.org/document/10224064/",
+      "keywords": "",
+      "topic": "tim c green",
+      "source_file": "tim_c_green_reference.bib",
+      "verification_status": "doi-present"
+    },
+    {
+      "key": "9967953",
+      "entry_type": "article",
+      "title": "Coprime Polynomial Based Dual-Circulant Modulation for Inherent Submodule Voltage Balancing in MMDC",
+      "authors": [
+        "Shiyuan Fan",
+        "Xin Xiang",
+        "Chushan Li",
+        "Yunjie Gu",
+        "Huan Yang",
+        "Wuhua Li",
+        "Xiangning He",
+        "Timothy C. Green"
+      ],
+      "year": "2023",
+      "venue": "IEEE Transactions on Industrial Electronics",
+      "doi": "10.1109/TIE.2022.3224157",
+      "url": "https://ieeexplore.ieee.org/document/9967953/",
+      "keywords": "",
+      "topic": "tim c green",
+      "source_file": "tim_c_green_reference.bib",
+      "verification_status": "doi-present"
+    },
+    {
+      "key": "10068248",
+      "entry_type": "article",
+      "title": "Injection Amplitude Guidance for Impedance Measurement in Power Systems",
+      "authors": [
+        "Yue Zhu",
+        "Yifan Zhang",
+        "Timothy C. Green"
+      ],
+      "year": "2023",
+      "venue": "IEEE Transactions on Power Electronics",
+      "doi": "10.1109/TPEL.2023.3256182",
+      "url": "https://ieeexplore.ieee.org/document/10068248/",
+      "keywords": "",
+      "topic": "tim c green",
+      "source_file": "tim_c_green_reference.bib",
+      "verification_status": "doi-present"
+    },
+    {
+      "key": "9785718",
+      "entry_type": "article",
+      "title": "Impedance-Based Root-Cause Analysis: Comparative Study of Impedance Models and Calculation of Eigenvalue Sensitivity",
+      "authors": [
+        "Yue Zhu",
+        "Yunjie Gu",
+        "Yitong Li",
+        "Timothy C. Green"
+      ],
+      "year": "2023",
+      "venue": "IEEE Transactions on Power Systems",
+      "doi": "10.1109/TPWRS.2022.3179143",
+      "url": "https://ieeexplore.ieee.org/document/9785718/",
+      "keywords": "",
+      "topic": "tim c green",
+      "source_file": "tim_c_green_reference.bib",
+      "verification_status": "doi-present"
+    },
+    {
+      "key": "10905868",
+      "entry_type": "inproceedings",
+      "title": "Admittance Margin: A Guideline for Placement of Grid-Following and Grid-Forming Inverters Regarding Small-Signal Stability",
+      "authors": [
+        "Andreas Hadjileonidas",
+        "Yue Zhu",
+        "Timothy C. Green"
+      ],
+      "year": "2024",
+      "venue": "IECON 2024 - 50th Annual Conference of the IEEE Industrial Electronics Society",
+      "doi": "10.1109/IECON55916.2024.10905868",
+      "url": "https://ieeexplore.ieee.org/document/10905868/",
+      "keywords": "",
+      "topic": "tim c green",
+      "source_file": "tim_c_green_reference.bib",
+      "verification_status": "doi-present"
+    },
+    {
+      "key": "10444680",
+      "entry_type": "article",
+      "title": "Rebalancing Needs and Services for Future Grids: System Needs and Service Provisions With Increasing Shares of Inverter-Based Resources",
+      "authors": [
+        "Balarko Chaudhuri",
+        "Deepak Ramasubramanian",
+        "Julia Matevosyan",
+        "Mark O’Malley",
+        "Nick Miller",
+        "Tim Green",
+        "Xiaoyao Zhou"
+      ],
+      "year": "2024",
+      "venue": "IEEE Power and Energy Magazine",
+      "doi": "10.1109/MPE.2023.3342113",
+      "url": "https://ieeexplore.ieee.org/document/10444680/",
+      "keywords": "",
+      "topic": "tim c green",
+      "source_file": "tim_c_green_reference.bib",
+      "verification_status": "doi-present"
+    },
+    {
+      "key": "10799453",
+      "entry_type": "inproceedings",
+      "title": "A framework for evaluating contributions of Inverter Based Resources to grid performance",
+      "authors": [
+        "Andreas Hadjileonidas",
+        "Timothy C. Green"
+      ],
+      "year": "2024",
+      "venue": "2024 3rd International Conference on Energy Transition in the Mediterranean Area (SyNERGY MED)",
+      "doi": "10.1109/SYNERGYMED62435.2024.10799453",
+      "url": "https://ieeexplore.ieee.org/document/10799453/",
+      "keywords": "",
+      "topic": "tim c green",
+      "source_file": "tim_c_green_reference.bib",
+      "verification_status": "doi-present"
+    },
+    {
+      "key": "10274873",
+      "entry_type": "article",
+      "title": "Optimal Circulant Modulation for Submodule Voltage Ripple Minimization With Inherent Balancing Capability in Modular Multilevel DC–DC Converters",
+      "authors": [
+        "Shiyuan Fan",
+        "Xin Xiang",
+        "Yunjie Gu",
+        "Huan Yang",
+        "Wuhua Li",
+        "Rongxiang Zhao",
+        "Xiangning He",
+        "Timothy C. Green"
+      ],
+      "year": "2024",
+      "venue": "IEEE Transactions on Power Electronics",
+      "doi": "10.1109/TPEL.2023.3322976",
+      "url": "https://ieeexplore.ieee.org/document/10274873/",
+      "keywords": "",
+      "topic": "tim c green",
+      "source_file": "tim_c_green_reference.bib",
+      "verification_status": "doi-present"
+    },
+    {
+      "key": "10363677",
+      "entry_type": "article",
+      "title": "Descriptor State Space Modeling of Power Systems",
+      "authors": [
+        "Yitong Li",
+        "Timothy C. Green",
+        "Yunjie Gu"
+      ],
+      "year": "2024",
+      "venue": "IEEE Transactions on Power Systems",
+      "doi": "10.1109/TPWRS.2023.3343817",
+      "url": "https://ieeexplore.ieee.org/document/10363677/",
+      "keywords": "",
+      "topic": "tim c green",
+      "source_file": "tim_c_green_reference.bib",
+      "verification_status": "doi-present"
+    },
+    {
+      "key": "10384849",
+      "entry_type": "article",
+      "title": "Analytical Design of Contributions of Grid-Forming and Grid-Following Inverters to Frequency Stability",
+      "authors": [
+        "Eugenie A. S. Ducoin",
+        "Yunjie Gu",
+        "Balarko Chaudhuri",
+        "Timothy C. Green"
+      ],
+      "year": "2024",
+      "venue": "IEEE Transactions on Power Systems",
+      "doi": "10.1109/TPWRS.2024.3351530",
+      "url": "https://ieeexplore.ieee.org/document/10384849/",
+      "keywords": "",
+      "topic": "tim c green",
+      "source_file": "tim_c_green_reference.bib",
+      "verification_status": "doi-present"
+    },
+    {
+      "key": "10452832",
+      "entry_type": "article",
+      "title": "Impedance Margin Ratio: A New Metric for Small-Signal System Strength",
+      "authors": [
+        "Yue Zhu",
+        "Timothy C. Green",
+        "Xiaoyao Zhou",
+        "Yitong Li",
+        "Dechao Kong",
+        "Yunjie Gu"
+      ],
+      "year": "2024",
+      "venue": "IEEE Transactions on Power Systems",
+      "doi": "10.1109/TPWRS.2024.3371231",
+      "url": "https://ieeexplore.ieee.org/document/10452832/",
+      "keywords": "",
+      "topic": "tim c green",
+      "source_file": "tim_c_green_reference.bib",
+      "verification_status": "doi-present"
+    },
+    {
+      "key": "11180423",
+      "entry_type": "inproceedings",
+      "title": "Fault Sensitivity Analysis Studies of Grid-Following and Grid-Forming Inverters to Aid System Design",
+      "authors": [
+        "Fater Akuhwa",
+        "Kassem El Cheikh Ali",
+        "Timothy C. Green"
+      ],
+      "year": "2025",
+      "venue": "2025 IEEE Kiel PowerTech",
+      "doi": "10.1109/POWERTECH59965.2025.11180423",
+      "url": "https://ieeexplore.ieee.org/document/11180423/",
+      "keywords": "",
+      "topic": "tim c green",
+      "source_file": "tim_c_green_reference.bib",
+      "verification_status": "doi-present"
+    },
+    {
+      "key": "10878458",
+      "entry_type": "article",
+      "title": "Reserve Provision From Electric Vehicles: Aggregate Boundaries and Stochastic Model Predictive Control",
+      "authors": [
+        "Jacob Thrän",
+        "Jakub Mareček",
+        "Robert N. Shorten",
+        "Timothy C. Green"
+      ],
+      "year": "2025",
+      "venue": "IEEE Transactions on Power Systems",
+      "doi": "10.1109/TPWRS.2025.3539863",
+      "url": "https://ieeexplore.ieee.org/document/10878458/",
+      "keywords": "",
+      "topic": "tim c green",
+      "source_file": "tim_c_green_reference.bib",
+      "verification_status": "doi-present"
+    },
+    {
+      "key": "11328970",
+      "entry_type": "article",
+      "title": "Multilayered Defense Against Oscillations: Mitigation of Oscillation Risk in Inverter-Dominated Power Grids",
+      "authors": [
+        "Yunjie Gu",
+        "Balarko Chaudhuri",
+        "Timothy C. Green",
+        "Xiaoyao Zhou",
+        "Jay Ramachandran"
+      ],
+      "year": "2026",
+      "venue": "IEEE Power and Energy Magazine",
+      "doi": "10.1109/MPE.2025.3607911",
+      "url": "https://ieeexplore.ieee.org/document/11328970/",
+      "keywords": "",
+      "topic": "tim c green",
+      "source_file": "tim_c_green_reference.bib",
+      "verification_status": "doi-present"
+    },
+    {
+      "key": "11533501",
+      "entry_type": "article",
+      "title": "Application of Impedance-Based Frequency-Dependent System Strength Assessment for Inverter-Dominated Power Systems",
+      "authors": [
+        "Andreas Hadjileonidas",
+        "Deborah Ritzmann",
+        "Pablo Briff",
+        "Peter Davis",
+        "Yunjie Gu",
+        "Jonathan Powell",
+        "Stefano Lodetti",
+        "Rohit Dambhare",
+        "Mark Osborne",
+        "Sum Barzegaran",
+        "Yue Zhu",
+        "Timothy C. Green"
+      ],
+      "year": "2026",
+      "venue": "IEEE Transactions on Power Delivery",
+      "doi": "10.1109/TPWRD.2026.3695642",
+      "url": "https://ieeexplore.ieee.org/document/11533501/",
+      "keywords": "",
+      "topic": "tim c green",
+      "source_file": "tim_c_green_reference.bib",
+      "verification_status": "doi-present"
+    },
+    {
+      "key": "11482889",
+      "entry_type": "article",
+      "title": "Hybrid Data/Model-Driven Whole-System Admittance Identification via Single-Bus Injections",
+      "authors": [
+        "Yue Zhu",
+        "Yunjie Gu",
+        "Yifan Zhang",
+        "Jessica S. Döhler",
+        "Xiaoyao Zhou",
+        "Lingling Fan",
+        "Timothy C. Green"
+      ],
+      "year": "2026",
+      "venue": "IEEE Transactions on Power Systems",
+      "doi": "10.1109/TPWRS.2026.3684993",
+      "url": "https://ieeexplore.ieee.org/document/11482889/",
+      "keywords": "",
+      "topic": "tim c green",
+      "source_file": "tim_c_green_reference.bib",
       "verification_status": "doi-present"
     },
     {

@@ -183,6 +183,7 @@ The current `PE_IEEE_reference/` library includes curated BibTeX collections for
 | Robert W. Erickson | `PE_IEEE_reference/robert_w_erickson_reference.bib` | 116 |
 | R. D. Middlebrook | `PE_IEEE_reference/r_d_middlebrook_reference.bib` | 47 |
 | Thomas Guillod | `PE_IEEE_reference/Thomas_Guillod_reference.bib` | 45 |
+| Tim C. Green | `PE_IEEE_reference/tim_c_green_reference.bib` | 47 |
 | Daniel Rothmund | `PE_IEEE_reference/daniel_rothmund_reference.bib` | 19 |
 | Zhengyu Lin | `PE_IEEE_reference/zhengyu_lin_reference.bib` | 35 |
 | Kolar/Guillod converter optimization topic set | `PE_IEEE_reference/kolar_guillod_converter_optimization.bib` | 17 |
