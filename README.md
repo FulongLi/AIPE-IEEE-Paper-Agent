@@ -1,5 +1,7 @@
 # IEEE Paper Agent
 
+Current version: `0.1.0`
+
 A LaTeX template and writing-skill repository for planning, drafting, organizing, and reviewing IEEE-style research papers.
 
 This repository helps authors turn research ideas into paper plans first, then into IEEE/Overleaf-ready LaTeX manuscript workspaces with explicit evidence and citation checks.
@@ -133,6 +135,7 @@ Use ieee-paper-latex-writing to help me rewrite the abstract and introduction fo
 - `references/manuscript-workspace-standard.md`: Overleaf-compatible manuscript folder standard.
 - `references/figure-generation-workflow.md`: AI figure generation workflow for framework diagrams and paper illustrations.
 - `references/citation-verification-policy.md`: Rules for traceable citations and BibTeX entries.
+- `references/reference-collection-maintenance.md`: Workflow for maintaining author/topic reference collections under `PE_ref/`.
 
 ## Power Electronics Knowledge Base
 
@@ -159,6 +162,12 @@ python scripts/build-reference-index.py
 ```
 
 The index records citation keys, titles, authors, years, venues, DOI/URL fields, source `.bib` files, inferred topics, duplicate keys, and verification status. Use it for retrieval and citation audit, then copy verified BibTeX entries into the manuscript-local `refs/references.bib`.
+
+To add or update an author/topic collection from IEEE Xplore, DOI records, publisher pages, or user-provided source lists, follow:
+
+```text
+workflows/reference-collection-maintenance.md
+```
 
 ### Included Reference Collections
 
@@ -189,6 +198,7 @@ Use these files when turning an early idea into a paper:
 - `workflows/manuscript-workspace-standard.md`: standard folder layout for each generated paper
 - `workflows/figure-generation.md`: AI figure-generation workflow for diagrams saved into `figures/`
 - `workflows/reference-verification.md`: citation and BibTeX verification workflow
+- `workflows/reference-collection-maintenance.md`: workflow for adding/updating `PE_ref/` author and topic collections
 - `workflows/prompt-library.md`: copy-ready prompts for Codex
 - `templates/research-idea-brief.md`: input template for a new idea
 - `templates/paper-plan.md`: structured output template for a paper plan

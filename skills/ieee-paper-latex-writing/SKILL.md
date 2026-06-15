@@ -22,6 +22,7 @@ This skill can operate in two modes:
    - If the user wants a LaTeX workspace or Overleaf package, load `references/manuscript-workspace-standard.md`.
    - If the task involves generating paper figures, diagrams, or framework illustrations, load `references/figure-generation-workflow.md`.
    - If the task involves citations, BibTeX, related work, or literature retrieval, load `references/citation-verification-policy.md`.
+   - If the task involves adding or updating repository reference collections from IEEE Xplore, DOI records, or author profiles, load `references/reference-collection-maintenance.md`.
 
 2. Identify the target venue and template before editing.
    - Use `IEEEtran` conference mode for conference proceedings.
@@ -95,6 +96,7 @@ Load these only when the task needs more detail:
 - `references/manuscript-workspace-standard.md`: required manuscript workspace layout and Overleaf-compatible file organization.
 - `references/figure-generation-workflow.md`: AI figure generation, storage, and LaTeX integration workflow.
 - `references/citation-verification-policy.md`: citation and BibTeX verification rules.
+- `references/reference-collection-maintenance.md`: author/topic reference collection maintenance workflow for `PE_ref/`.
 
 ## Output Standards
 

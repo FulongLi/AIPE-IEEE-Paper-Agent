@@ -106,6 +106,20 @@ Available reference sources:
 Audit the citations and produce notes/citation-audit.md. Mark missing or uncertain references instead of inventing BibTeX.
 ```
 
+## Add an Author Reference Collection
+
+```text
+Use workflows/reference-collection-maintenance.md.
+
+Author:
+<author name>
+
+Scope:
+<IEEE Xplore / power electronics only / specific topic / full bibliography>
+
+Create or update PE_ref/<normalized_author>_reference.bib, PE_ref/<normalized_author>_reference.md, and PE_ref/<normalized_author>_reference.html from verified sources. Rebuild PE_ref/references-index.json and report records that need verification. Do not invent missing metadata.
+```
+
 ## Review a Draft Before Submission
 
 ```text
