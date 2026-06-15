@@ -1,6 +1,6 @@
-# Reference Collection Maintenance Workflow
+﻿# Reference Collection Maintenance Workflow
 
-Use this workflow when adding or updating repository-level reference collections under `PE_ref/`, especially author-based collections from IEEE Xplore.
+Use this workflow when adding or updating repository-level reference collections under `PE_IEEE_reference/`, especially author-based collections from IEEE Xplore.
 
 ## Goal
 
@@ -34,10 +34,10 @@ Do not invent missing metadata. If a publication cannot be verified, omit it or 
    - Keep DOI, title, authors, venue, year, pages, volume/number, and keywords.
    - Preserve IEEE article-number keys when exported, unless creating a curated semantic-key topic set.
 
-4. Save the collection under `PE_ref/`.
-   - BibTeX: `PE_ref/<normalized_author>_reference.bib`
-   - Markdown summary: `PE_ref/<normalized_author>_reference.md`
-   - HTML browse page: `PE_ref/<normalized_author>_reference.html`
+4. Save the collection under `PE_IEEE_reference/`.
+   - BibTeX: `PE_IEEE_reference/<normalized_author>_reference.bib`
+   - Markdown summary: `PE_IEEE_reference/<normalized_author>_reference.md`
+   - HTML browse page: `PE_IEEE_reference/<normalized_author>_reference.html`
 
 5. Write the Markdown summary.
    - State source and scope.
@@ -68,7 +68,7 @@ For a topic-specific collection, such as converter optimization:
 - Use semantic citation keys when the list is manually curated.
 - Include only papers that directly support the topic.
 - Add a header comment in the `.bib` file describing scope and source assumptions.
-- Rebuild `PE_ref/references-index.json`.
+- Rebuild `PE_IEEE_reference/references-index.json`.
 
 ## Quality Rules
 

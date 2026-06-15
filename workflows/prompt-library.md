@@ -1,4 +1,4 @@
-# Prompt Library
+﻿# Prompt Library
 
 Copy these prompts into Codex when using this repository.
 
@@ -101,7 +101,7 @@ Manuscript or paper plan:
 <path or paste content>
 
 Available reference sources:
-<refs.bib / PE_ref / DOI list / IEEE Xplore links / unknown>
+<refs.bib / PE_IEEE_reference / DOI list / IEEE Xplore links / unknown>
 
 Audit the citations and produce notes/citation-audit.md. Mark missing or uncertain references instead of inventing BibTeX.
 ```
@@ -117,7 +117,7 @@ Author:
 Scope:
 <IEEE Xplore / power electronics only / specific topic / full bibliography>
 
-Create or update PE_ref/<normalized_author>_reference.bib, PE_ref/<normalized_author>_reference.md, and PE_ref/<normalized_author>_reference.html from verified sources. Rebuild PE_ref/references-index.json and report records that need verification. Do not invent missing metadata.
+Create or update PE_IEEE_reference/<normalized_author>_reference.bib, PE_IEEE_reference/<normalized_author>_reference.md, and PE_IEEE_reference/<normalized_author>_reference.html from verified sources. Rebuild PE_IEEE_reference/references-index.json and report records that need verification. Do not invent missing metadata.
 ```
 
 ## Review a Draft Before Submission

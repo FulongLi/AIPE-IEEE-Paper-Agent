@@ -1,4 +1,4 @@
-# Workflows
+﻿# Workflows
 
 This folder contains reusable workflows for turning a research idea into an IEEE-style paper artifact.
 
@@ -9,7 +9,7 @@ This folder contains reusable workflows for turning a research idea into an IEEE
 - `manuscript-workspace-standard.md`: Define the standard Overleaf-compatible folder layout for each generated paper.
 - `figure-generation.md`: Generate framework diagrams and illustrations after the paper plan is agreed.
 - `reference-verification.md`: Check citation traceability and BibTeX consistency.
-- `reference-collection-maintenance.md`: Add or update author/topic reference collections under `PE_ref/`.
+- `reference-collection-maintenance.md`: Add or update author/topic reference collections under `PE_IEEE_reference/`.
 - `prompt-library.md`: Copy-ready Codex prompts for common paper-writing tasks.
 
 ## Recommended Starting Prompt

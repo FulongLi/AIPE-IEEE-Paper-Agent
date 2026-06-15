@@ -1,12 +1,12 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-06-15T16:43:09+00:00",
-  "source_directory": "PE_ref",
-  "record_count": 3213,
-  "duplicate_key_count": 82,
+  "generated_at": "2026-06-15T16:58:32+00:00",
+  "source_directory": "PE_IEEE_reference",
+  "record_count": 3248,
+  "duplicate_key_count": 87,
   "verification_status_counts": {
     "arxiv-mentioned": 3,
-    "doi-present": 3175,
+    "doi-present": 3210,
     "needs-verification": 35
   },
   "duplicate_keys": {
@@ -344,6 +344,26 @@
     "6954048": [
       "johann_w_kolar_reference.bib",
       "Thomas_Guillod_reference.bib"
+    ],
+    "9714353": [
+      "xiangning_he_reference.bib",
+      "zhengyu_lin_reference.bib"
+    ],
+    "9546668": [
+      "xiangning_he_reference.bib",
+      "zhengyu_lin_reference.bib"
+    ],
+    "9484414": [
+      "xiangning_he_reference.bib",
+      "zhengyu_lin_reference.bib"
+    ],
+    "8365138": [
+      "xiangning_he_reference.bib",
+      "zhengyu_lin_reference.bib"
+    ],
+    "7152016": [
+      "xiangning_he_reference.bib",
+      "zhengyu_lin_reference.bib"
     ]
   },
   "records": [
@@ -61880,6 +61900,672 @@
       "keywords": "Switching circuits;Switching converters;Switches;Power electronics;Power engineering and energy;Diodes;Electrons",
       "topic": "xiangning he",
       "source_file": "xiangning_he_reference.bib",
+      "verification_status": "doi-present"
+    },
+    {
+      "key": "10971981",
+      "entry_type": "article",
+      "title": "Hybrid Impedance-Based Controller Design of Grid-Connected Converter for Whole-System Stabilization of Grid-Connected DC Microgrids",
+      "authors": [
+        "Zhu, Yuxin",
+        "Wang, Fei",
+        "Lin, Zhengyu",
+        "Fleming, James"
+      ],
+      "year": "2025",
+      "venue": "IEEE Access",
+      "doi": "10.1109/ACCESS.2025.3562856",
+      "url": "https://ieeexplore.ieee.org/document/10971981/",
+      "keywords": "",
+      "topic": "zhengyu lin",
+      "source_file": "zhengyu_lin_reference.bib",
+      "verification_status": "doi-present"
+    },
+    {
+      "key": "10531978",
+      "entry_type": "inproceedings",
+      "title": "Model Predictive Control for Energy Management of Microgrids Considering Battery Degradation",
+      "authors": [
+        "Abdur Rehman, Javaria",
+        "Lin, Zhengyu",
+        "Fleming, James"
+      ],
+      "year": "2024",
+      "venue": "2024 UKACC 14th International Conference on Control (CONTROL)",
+      "doi": "10.1109/CONTROL60310.2024.10531978",
+      "url": "https://ieeexplore.ieee.org/document/10531978/",
+      "keywords": "",
+      "topic": "zhengyu lin",
+      "source_file": "zhengyu_lin_reference.bib",
+      "verification_status": "doi-present"
+    },
+    {
+      "key": "8912225",
+      "entry_type": "inproceedings",
+      "title": "A Virtual Inertia Control Strategy of Interlinking Converters in Islanded Hybrid AC/DC Microgrid",
+      "authors": [
+        "Xiao, Jingyi",
+        "Chen, Alian",
+        "Lin, Zhengyu",
+        "Xue, Haihua"
+      ],
+      "year": "2019",
+      "venue": "2019 IEEE Energy Conversion Congress and Exposition (ECCE)",
+      "doi": "10.1109/ECCE.2019.8912225",
+      "url": "https://ieeexplore.ieee.org/document/8912225/",
+      "keywords": "",
+      "topic": "zhengyu lin",
+      "source_file": "zhengyu_lin_reference.bib",
+      "verification_status": "doi-present"
+    },
+    {
+      "key": "7152016",
+      "entry_type": "inproceedings",
+      "title": "Novel Communication Method Between Power Converters for DC Micro-Grid Applications",
+      "authors": [
+        "Lin, Zhengyu",
+        "Du, Jin",
+        "Wu, Jiande",
+        "He, Xiangning"
+      ],
+      "year": "2015",
+      "venue": "2015 IEEE First International Conference on DC Microgrids (ICDCM)",
+      "doi": "10.1109/ICDCM.2015.7152016",
+      "url": "http://ieeexplore.ieee.org/document/7152016/",
+      "keywords": "",
+      "topic": "zhengyu lin",
+      "source_file": "zhengyu_lin_reference.bib",
+      "verification_status": "doi-present"
+    },
+    {
+      "key": "8001048",
+      "entry_type": "inproceedings",
+      "title": "Active DC Bus Signaling Control Method for Coordinating Multiple Energy Storage Devices in DC Microgrid",
+      "authors": [
+        "Li, Fulong",
+        "Lin, Zhengyu",
+        "Qian, Zhongnan",
+        "Wu, Jiande"
+      ],
+      "year": "2017",
+      "venue": "2017 IEEE Second International Conference on DC Microgrids (ICDCM)",
+      "doi": "10.1109/ICDCM.2017.8001048",
+      "url": "http://ieeexplore.ieee.org/document/8001048/",
+      "keywords": "",
+      "topic": "zhengyu lin",
+      "source_file": "zhengyu_lin_reference.bib",
+      "verification_status": "doi-present"
+    },
+    {
+      "key": "9232923",
+      "entry_type": "inproceedings",
+      "title": "Terminal Capacitor Compensation Based Stability Design for DC Microgrids",
+      "authors": [
+        "Li, Fulong",
+        "Lin, Zhengyu",
+        "Chen, Alian",
+        "Wu, Jiande"
+      ],
+      "year": "2019",
+      "venue": "2019 IEEE Third International Conference on DC Microgrids (ICDCM)",
+      "doi": "10.1109/ICDCM45535.2019.9232923",
+      "url": "https://ieeexplore.ieee.org/document/9232923/",
+      "keywords": "",
+      "topic": "zhengyu lin",
+      "source_file": "zhengyu_lin_reference.bib",
+      "verification_status": "doi-present"
+    },
+    {
+      "key": "9504641",
+      "entry_type": "inproceedings",
+      "title": "Reconstructed Droop Control for Peer Current Sharing of Battery Storage in DC Microgrids",
+      "authors": [
+        "Li, Fulong",
+        "Xu, Haoge",
+        "Lin, Zhengyu"
+      ],
+      "year": "2021",
+      "venue": "2021 IEEE Fourth International Conference on DC Microgrids (ICDCM)",
+      "doi": "10.1109/ICDCM50975.2021.9504641",
+      "url": "https://ieeexplore.ieee.org/document/9504641/",
+      "keywords": "",
+      "topic": "zhengyu lin",
+      "source_file": "zhengyu_lin_reference.bib",
+      "verification_status": "doi-present"
+    },
+    {
+      "key": "9504679",
+      "entry_type": "inproceedings",
+      "title": "Multi-Port Energy Router for DC Grid Clusters",
+      "authors": [
+        "Sun, Linfeng",
+        "Jiang, Wei",
+        "Hashimoto, Seiji",
+        "Lin, Zhengyu"
+      ],
+      "year": "2021",
+      "venue": "2021 IEEE Fourth International Conference on DC Microgrids (ICDCM)",
+      "doi": "10.1109/ICDCM50975.2021.9504679",
+      "url": "https://ieeexplore.ieee.org/document/9504679/",
+      "keywords": "",
+      "topic": "zhengyu lin",
+      "source_file": "zhengyu_lin_reference.bib",
+      "verification_status": "doi-present"
+    },
+    {
+      "key": "7884432",
+      "entry_type": "inproceedings",
+      "title": "A Modified MPPT Algorithm With Integrated Active Power Control for PV-Battery Systems",
+      "authors": [
+        "Li, Fulong",
+        "Alshareef, Muhannad",
+        "Lin, Zhengyu",
+        "Jiang, Wei"
+      ],
+      "year": "2016",
+      "venue": "2016 IEEE International Conference on Renewable Energy Research and Applications (ICRERA)",
+      "doi": "10.1109/ICRERA.2016.7884432",
+      "url": "http://ieeexplore.ieee.org/document/7884432/",
+      "keywords": "",
+      "topic": "zhengyu lin",
+      "source_file": "zhengyu_lin_reference.bib",
+      "verification_status": "doi-present"
+    },
+    {
+      "key": "8566979",
+      "entry_type": "inproceedings",
+      "title": "A Constant Grid Interface Current Controller for DC Microgrid",
+      "authors": [
+        "Alshareef, Muhannad",
+        "Lin, Zhengyu"
+      ],
+      "year": "2018",
+      "venue": "2018 7th International Conference on Renewable Energy Research and Applications (ICRERA)",
+      "doi": "10.1109/ICRERA.2018.8566979",
+      "url": "https://ieeexplore.ieee.org/document/8566979/",
+      "keywords": "",
+      "topic": "zhengyu lin",
+      "source_file": "zhengyu_lin_reference.bib",
+      "verification_status": "doi-present"
+    },
+    {
+      "key": "10905722",
+      "entry_type": "inproceedings",
+      "title": "A Novel Motor Drive and Battery Charger System Using Eight-Switch Converter for EVs Incorporating Symmetrical Six-Phase Machines",
+      "authors": [
+        "Channar, Faheem Shafeeque",
+        "Diab, Mohamed",
+        "Lin, Zhengyu"
+      ],
+      "year": "2024",
+      "venue": "IECON 2024 - 50th Annual Conference of the IEEE Industrial Electronics Society",
+      "doi": "10.1109/IECON55916.2024.10905722",
+      "url": "https://ieeexplore.ieee.org/document/10905722/",
+      "keywords": "",
+      "topic": "zhengyu lin",
+      "source_file": "zhengyu_lin_reference.bib",
+      "verification_status": "doi-present"
+    },
+    {
+      "key": "10764500",
+      "entry_type": "inproceedings",
+      "title": "An Improved Closed-Loop Line Resistance Estimation for DC Microgrids Droop Control",
+      "authors": [
+        "Qin, Xiangyu",
+        "Lin, Zhengyu",
+        "Jiang, Wei",
+        "Wang, Jieyun"
+      ],
+      "year": "2024",
+      "venue": "2024 International Symposium on Electrical, Electronics and Information Engineering (ISEEIE)",
+      "doi": "10.1109/ISEEIE62461.2024.00090",
+      "url": "https://ieeexplore.ieee.org/document/10764500/",
+      "keywords": "",
+      "topic": "zhengyu lin",
+      "source_file": "zhengyu_lin_reference.bib",
+      "verification_status": "doi-present"
+    },
+    {
+      "key": "10764584",
+      "entry_type": "inproceedings",
+      "title": "A Review on Pakistan's Electrical Vehicle (EV) Policies: Lessons From South Asian Countries",
+      "authors": [
+        "Uddin, Mazhar",
+        "Blanchard, Richard",
+        "Lin, Zhengyu",
+        "Fleming, James"
+      ],
+      "year": "2024",
+      "venue": "2024 International Symposium on Electrical, Electronics and Information Engineering (ISEEIE)",
+      "doi": "10.1109/ISEEIE62461.2024.00101",
+      "url": "https://ieeexplore.ieee.org/document/10764584/",
+      "keywords": "",
+      "topic": "zhengyu lin",
+      "source_file": "zhengyu_lin_reference.bib",
+      "verification_status": "doi-present"
+    },
+    {
+      "key": "8781426",
+      "entry_type": "inproceedings",
+      "title": "Virtual Negative Cable Resistance for Power Sharing Accuracy Enhancement in DC Microgrids",
+      "authors": [
+        "Li, Fulong",
+        "Lin, Zhengyu",
+        "Wu, Jiande",
+        "Li, Wuhua"
+      ],
+      "year": "2019",
+      "venue": "2019 IEEE 28th International Symposium on Industrial Electronics (ISIE)",
+      "doi": "10.1109/ISIE.2019.8781426",
+      "url": "https://ieeexplore.ieee.org/document/8781426/",
+      "keywords": "",
+      "topic": "zhengyu lin",
+      "source_file": "zhengyu_lin_reference.bib",
+      "verification_status": "doi-present"
+    },
+    {
+      "key": "9152414",
+      "entry_type": "inproceedings",
+      "title": "Multifunctional Control Design for Modular Plug-and-Play Battery Storage in DC Microgrids",
+      "authors": [
+        "Li, Fulong",
+        "Xu, Haoge",
+        "Lin, Zhengyu"
+      ],
+      "year": "2020",
+      "venue": "2020 IEEE 29th International Symposium on Industrial Electronics (ISIE)",
+      "doi": "10.1109/ISIE45063.2020.9152414",
+      "url": "https://ieeexplore.ieee.org/document/9152414/",
+      "keywords": "",
+      "topic": "zhengyu lin",
+      "source_file": "zhengyu_lin_reference.bib",
+      "verification_status": "doi-present"
+    },
+    {
+      "key": "9391691",
+      "entry_type": "article",
+      "title": "Novel Passive Controller Design for Enhancing Boost Converter Stability in DC Microgrid Applications",
+      "authors": [
+        "Li, Fulong",
+        "Lin, Zhengyu"
+      ],
+      "year": "2021",
+      "venue": "IEEE Journal of Emerging and Selected Topics in Power Electronics",
+      "doi": "10.1109/JESTPE.2021.3070234",
+      "url": "https://ieeexplore.ieee.org/document/9391691/",
+      "keywords": "",
+      "topic": "zhengyu lin",
+      "source_file": "zhengyu_lin_reference.bib",
+      "verification_status": "doi-present"
+    },
+    {
+      "key": "9714353",
+      "entry_type": "article",
+      "title": "An Embedded Communication Method for In-Home Energy Routers With Power/Signal Dual Modulation",
+      "authors": [
+        "Wang, Ruichi",
+        "Chen, Guipeng",
+        "Chen, Jinghui",
+        "Wu, Jiande",
+        "Li, Wuhua",
+        "Ding, Shuye",
+        "Lin, Zhengyu",
+        "He, Xiangning"
+      ],
+      "year": "2022",
+      "venue": "IEEE Journal of Emerging and Selected Topics in Power Electronics",
+      "doi": "10.1109/JESTPE.2022.3152055",
+      "url": "https://ieeexplore.ieee.org/document/9714353/",
+      "keywords": "",
+      "topic": "zhengyu lin",
+      "source_file": "zhengyu_lin_reference.bib",
+      "verification_status": "doi-present"
+    },
+    {
+      "key": "10379812",
+      "entry_type": "article",
+      "title": "Multiport Energy Router for DC Grid Clusters",
+      "authors": [
+        "Sun, Linfeng",
+        "Jiang, Wei",
+        "Hashimoto, Seiji",
+        "Lin, Zhengyu",
+        "Kawaguchi, Takahiro"
+      ],
+      "year": "2024",
+      "venue": "IEEE Journal of Emerging and Selected Topics in Power Electronics",
+      "doi": "10.1109/JESTPE.2024.3349420",
+      "url": "https://ieeexplore.ieee.org/document/10379812/",
+      "keywords": "",
+      "topic": "zhengyu lin",
+      "source_file": "zhengyu_lin_reference.bib",
+      "verification_status": "doi-present"
+    },
+    {
+      "key": "9539128",
+      "entry_type": "article",
+      "title": "Local Fault Location in Meshed DC Microgrids Based On Parameter Estimation Technique",
+      "authors": [
+        "Bayati, Navid",
+        "Baghaee, Hamid Reza",
+        "Hajizadeh, Amin",
+        "Soltani, Mohsen",
+        "Lin, Zhengyu",
+        "Savaghebi, Mehdi"
+      ],
+      "year": "2022",
+      "venue": "IEEE Systems Journal",
+      "doi": "10.1109/JSYST.2021.3107905",
+      "url": "https://ieeexplore.ieee.org/document/9539128/",
+      "keywords": "",
+      "topic": "zhengyu lin",
+      "source_file": "zhengyu_lin_reference.bib",
+      "verification_status": "doi-present"
+    },
+    {
+      "key": "9628503",
+      "entry_type": "inproceedings",
+      "title": "Plug-and-Play Control in Islanded AC Microgrids With Flexible Structures",
+      "authors": [
+        "Sadabadi, Mahdieh S.",
+        "Lin, Zhengyu"
+      ],
+      "year": "2021",
+      "venue": "2021 IEEE 1st International Power Electronics and Application Symposium (PEAS)",
+      "doi": "10.1109/PEAS53589.2021.9628503",
+      "url": "https://ieeexplore.ieee.org/document/9628503/",
+      "keywords": "",
+      "topic": "zhengyu lin",
+      "source_file": "zhengyu_lin_reference.bib",
+      "verification_status": "doi-present"
+    },
+    {
+      "key": "10395020",
+      "entry_type": "inproceedings",
+      "title": "Droop Control of Multi-Bus DC Microgrids Towards Economic Operation and Stability",
+      "authors": [
+        "Zhu, Yuxin",
+        "Wang, Fei",
+        "Lin, Zhengyu",
+        "Fleming, James"
+      ],
+      "year": "2023",
+      "venue": "2023 IEEE 2nd International Power Electronics and Application Symposium (PEAS)",
+      "doi": "10.1109/PEAS58692.2023.10395020",
+      "url": "https://ieeexplore.ieee.org/document/10395020/",
+      "keywords": "",
+      "topic": "zhengyu lin",
+      "source_file": "zhengyu_lin_reference.bib",
+      "verification_status": "doi-present"
+    },
+    {
+      "key": "10215163",
+      "entry_type": "inproceedings",
+      "title": "Beat Frequency Oscillation Analysis for a DC Microgrid With Multiple Boost Converters",
+      "authors": [
+        "Xu, Haoge",
+        "Zhu, Yuxin",
+        "Lin, Zhengyu"
+      ],
+      "year": "2023",
+      "venue": "2023 IEEE 14th International Symposium on Power Electronics for Distributed Generation Systems (PEDG)",
+      "doi": "10.1109/PEDG56097.2023.10215163",
+      "url": "https://ieeexplore.ieee.org/document/10215163/",
+      "keywords": "",
+      "topic": "zhengyu lin",
+      "source_file": "zhengyu_lin_reference.bib",
+      "verification_status": "doi-present"
+    },
+    {
+      "key": "10215291",
+      "entry_type": "inproceedings",
+      "title": "Large-Signal Stability Analysis of DC Microgrid With State Variable Constraint",
+      "authors": [
+        "Zhu, Yuxin",
+        "Wang, Fei",
+        "Lin, Zhengyu",
+        "Fleming, James"
+      ],
+      "year": "2023",
+      "venue": "2023 IEEE 14th International Symposium on Power Electronics for Distributed Generation Systems (PEDG)",
+      "doi": "10.1109/PEDG56097.2023.10215291",
+      "url": "https://ieeexplore.ieee.org/document/10215291/",
+      "keywords": "",
+      "topic": "zhengyu lin",
+      "source_file": "zhengyu_lin_reference.bib",
+      "verification_status": "doi-present"
+    },
+    {
+      "key": "9281580",
+      "entry_type": "inproceedings",
+      "title": "Energy Management System for DC Microgrids Considering Battery Degradation",
+      "authors": [
+        "Li, Fulong",
+        "Canizares, Claudio",
+        "Lin, Zhengyu"
+      ],
+      "year": "2020",
+      "venue": "2020 IEEE Power \\& Energy Society General Meeting (PESGM)",
+      "doi": "10.1109/PESGM41954.2020.9281580",
+      "url": "https://ieeexplore.ieee.org/document/9281580/",
+      "keywords": "",
+      "topic": "zhengyu lin",
+      "source_file": "zhengyu_lin_reference.bib",
+      "verification_status": "doi-present"
+    },
+    {
+      "key": "10598398",
+      "entry_type": "article",
+      "title": "Impedance Shaping Method for System-Level Stabilization of Droop-Controlled DC Microgrids",
+      "authors": [
+        "Zhu, Yuxin",
+        "Wang, Fei",
+        "Lin, Zhengyu",
+        "Fleming, James",
+        "Shi, Tianling",
+        "Guo, Hui",
+        "Xu, Haoge"
+      ],
+      "year": "2025",
+      "venue": "IEEE Transactions on Energy Conversion",
+      "doi": "10.1109/TEC.2024.3427427",
+      "url": "https://ieeexplore.ieee.org/document/10598398/",
+      "keywords": "",
+      "topic": "zhengyu lin",
+      "source_file": "zhengyu_lin_reference.bib",
+      "verification_status": "doi-present"
+    },
+    {
+      "key": "5613180",
+      "entry_type": "article",
+      "title": "A Learning Feed-Forward Current Controller for Linear Reciprocating Vapor Compressors",
+      "authors": [
+        "Lin, Zhengyu",
+        "Wang, Jiabin",
+        "Howe, David"
+      ],
+      "year": "2011",
+      "venue": "IEEE Transactions on Industrial Electronics",
+      "doi": "10.1109/TIE.2010.2089948",
+      "url": "http://ieeexplore.ieee.org/document/5613180/",
+      "keywords": "",
+      "topic": "zhengyu lin",
+      "source_file": "zhengyu_lin_reference.bib",
+      "verification_status": "doi-present"
+    },
+    {
+      "key": "8365138",
+      "entry_type": "article",
+      "title": "Embedding Power Line Communication in Photovoltaic Optimizer by Modulating Data in Power Control Loop",
+      "authors": [
+        "Zhu, Yue",
+        "Wu, Jiande",
+        "Wang, Ruichi",
+        "Lin, Zhengyu",
+        "He, Xiangning"
+      ],
+      "year": "2019",
+      "venue": "IEEE Transactions on Industrial Electronics",
+      "doi": "10.1109/TIE.2018.2838081",
+      "url": "https://ieeexplore.ieee.org/document/8365138/",
+      "keywords": "",
+      "topic": "zhengyu lin",
+      "source_file": "zhengyu_lin_reference.bib",
+      "verification_status": "doi-present"
+    },
+    {
+      "key": "9484414",
+      "entry_type": "article",
+      "title": "Embedding OFDM-Based Carrier Communication Into Power Control Loop of Converter in DC Microgrids",
+      "authors": [
+        "Zhang, Ruoqi",
+        "Hui, Yue",
+        "Wu, Jiande",
+        "Wang, Ruichi",
+        "Lin, Zhengyu",
+        "He, Xiangning"
+      ],
+      "year": "2022",
+      "venue": "IEEE Transactions on Industrial Electronics",
+      "doi": "10.1109/TIE.2021.3095821",
+      "url": "https://ieeexplore.ieee.org/document/9484414/",
+      "keywords": "",
+      "topic": "zhengyu lin",
+      "source_file": "zhengyu_lin_reference.bib",
+      "verification_status": "doi-present"
+    },
+    {
+      "key": "9546668",
+      "entry_type": "article",
+      "title": "A Power Flow Tracing Method Based on Power Electronic Signaling for P2P Electricity Trading in DC Microgrids",
+      "authors": [
+        "Zhang, Ruoqi",
+        "Hui, Yue",
+        "Wu, Jiande",
+        "Wang, Ruichi",
+        "Lin, Zhengyu",
+        "He, Xiangning"
+      ],
+      "year": "2022",
+      "venue": "IEEE Transactions on Power Electronics",
+      "doi": "10.1109/TPEL.2021.3114421",
+      "url": "https://ieeexplore.ieee.org/document/9546668/",
+      "keywords": "",
+      "topic": "zhengyu lin",
+      "source_file": "zhengyu_lin_reference.bib",
+      "verification_status": "doi-present"
+    },
+    {
+      "key": "8645723",
+      "entry_type": "article",
+      "title": "A Dual-Window DC Bus Interacting Method for DC Microgrids Hierarchical Control Scheme",
+      "authors": [
+        "Li, Fulong",
+        "Lin, Zhengyu",
+        "Qian, Zhongnan",
+        "Wu, Jiande",
+        "Jiang, Wei"
+      ],
+      "year": "2020",
+      "venue": "IEEE Transactions on Sustainable Energy",
+      "doi": "10.1109/TSTE.2019.2900617",
+      "url": "https://ieeexplore.ieee.org/document/8645723/",
+      "keywords": "",
+      "topic": "zhengyu lin",
+      "source_file": "zhengyu_lin_reference.bib",
+      "verification_status": "doi-present"
+    },
+    {
+      "key": "10233020",
+      "entry_type": "article",
+      "title": "Simultaneous Wireless Power and Data Transfer for Electric Vehicle Charging: A Review",
+      "authors": [
+        "Casaucao Tenllado, Inmaculada",
+        "Trivi{\\~n}o Cabrera, Alicia",
+        "Lin, Zhengyu"
+      ],
+      "year": "2024",
+      "venue": "IEEE Transactions on Transportation Electrification",
+      "doi": "10.1109/TTE.2023.3309505",
+      "url": "https://ieeexplore.ieee.org/document/10233020/",
+      "keywords": "",
+      "topic": "zhengyu lin",
+      "source_file": "zhengyu_lin_reference.bib",
+      "verification_status": "doi-present"
+    },
+    {
+      "key": "11270962",
+      "entry_type": "article",
+      "title": "An Eight-Switch-Converter-Based Motor Drive and Onboard Battery Charger for EVs Incorporating Symmetrical Six-Phase Machines",
+      "authors": [
+        "Channar, Faheem Shafeeque",
+        "Diab, Mohamed",
+        "Lin, Zhengyu"
+      ],
+      "year": "2026",
+      "venue": "IEEE Transactions on Transportation Electrification",
+      "doi": "10.1109/TTE.2025.3638136",
+      "url": "https://ieeexplore.ieee.org/document/11270962/",
+      "keywords": "",
+      "topic": "zhengyu lin",
+      "source_file": "zhengyu_lin_reference.bib",
+      "verification_status": "doi-present"
+    },
+    {
+      "key": "8581516",
+      "entry_type": "article",
+      "title": "Design and Assessment of an Electric Vehicle Powertrain Model Based on Real-World Driving and Charging Cycles",
+      "authors": [
+        "Du, Guanhao",
+        "Cao, Wenping",
+        "Hu, Shubo",
+        "Lin, Zhengyu",
+        "Yuan, Tiejiang"
+      ],
+      "year": "2019",
+      "venue": "IEEE Transactions on Vehicular Technology",
+      "doi": "10.1109/TVT.2018.2884812",
+      "url": "https://ieeexplore.ieee.org/document/8581516/",
+      "keywords": "",
+      "topic": "zhengyu lin",
+      "source_file": "zhengyu_lin_reference.bib",
+      "verification_status": "doi-present"
+    },
+    {
+      "key": "8910420",
+      "entry_type": "article",
+      "title": "A Switched Reluctance Motor Torque Ripple Reduction Strategy With Deadbeat Current Control and Active Thermal Management",
+      "authors": [
+        "Zhang, Xing",
+        "Yang, Qingqing",
+        "Ma, Mingyao",
+        "Lin, Zhengyu",
+        "Yang, Shuying"
+      ],
+      "year": "2020",
+      "venue": "IEEE Transactions on Vehicular Technology",
+      "doi": "10.1109/TVT.2019.2955218",
+      "url": "https://ieeexplore.ieee.org/document/8910420/",
+      "keywords": "",
+      "topic": "zhengyu lin",
+      "source_file": "zhengyu_lin_reference.bib",
+      "verification_status": "doi-present"
+    },
+    {
+      "key": "8542065",
+      "entry_type": "inproceedings",
+      "title": "A Modified Particle Swarm Optimization Based Maximum Power Point Tracking for PV Systems",
+      "authors": [
+        "Alshareef, Muhannad",
+        "Lin, Zhengyu"
+      ],
+      "year": "2018",
+      "venue": "2018 53rd International Universities Power Engineering Conference (UPEC)",
+      "doi": "10.1109/UPEC.2018.8542065",
+      "url": "https://ieeexplore.ieee.org/document/8542065/",
+      "keywords": "",
+      "topic": "zhengyu lin",
+      "source_file": "zhengyu_lin_reference.bib",
       "verification_status": "doi-present"
     }
   ]

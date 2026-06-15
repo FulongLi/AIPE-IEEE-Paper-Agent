@@ -1,4 +1,4 @@
----
+﻿---
 name: ieee-paper-latex-writing
 description: Write, revise, generate, audit, and prepare IEEE-style research manuscripts in LaTeX. Use when the user asks to turn a research idea or paper plan into an IEEE manuscript, create an Overleaf-ready LaTeX workspace, draft IEEE conference/Transactions/Access/Open Journal papers, use IEEE templates, write abstracts, introductions, related work, methods, experiments, figures, tables, equations, BibTeX/citations, verify references, prepare reviewer responses, or run publication-readiness checks for scientific papers, especially power electronics papers.
 ---
@@ -11,7 +11,7 @@ Turn a research idea, paper plan, or existing draft into a credible IEEE manuscr
 
 This skill can operate in two modes:
 
-- **Repository mode:** use the full paper-agent repository, including top-level workflows, IEEE templates, `knowledge-base/`, and `PE_ref/`.
+- **Repository mode:** use the full paper-agent repository, including top-level workflows, IEEE templates, `knowledge-base/`, and `PE_IEEE_reference/`.
 - **Packaged skill mode:** use this skill folder and its bundled `references/` as the minimum portable workflow when the full repository is not available.
 
 ## Workflow
@@ -60,7 +60,7 @@ This skill can operate in two modes:
    - Keep figures, tables, algorithms, and equations close to first reference when possible, but let floats float.
 
 7. Validate references before treating related work as complete.
-   - Prefer user-provided BibTeX, manuscript-local `refs/`, repository `PE_ref/`, IEEE Xplore/DOI records, or other official sources.
+   - Prefer user-provided BibTeX, manuscript-local `refs/`, repository `PE_IEEE_reference/`, IEEE Xplore/DOI records, or other official sources.
    - Do not invent references, DOIs, authors, years, or BibTeX entries.
    - Mark uncertain sources in `notes/citation-audit.md`.
 
@@ -96,7 +96,7 @@ Load these only when the task needs more detail:
 - `references/manuscript-workspace-standard.md`: required manuscript workspace layout and Overleaf-compatible file organization.
 - `references/figure-generation-workflow.md`: AI figure generation, storage, and LaTeX integration workflow.
 - `references/citation-verification-policy.md`: citation and BibTeX verification rules.
-- `references/reference-collection-maintenance.md`: author/topic reference collection maintenance workflow for `PE_ref/`.
+- `references/reference-collection-maintenance.md`: author/topic reference collection maintenance workflow for `PE_IEEE_reference/`.
 
 ## Output Standards
 

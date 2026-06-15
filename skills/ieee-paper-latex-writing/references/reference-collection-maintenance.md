@@ -1,6 +1,6 @@
-# Reference Collection Maintenance
+﻿# Reference Collection Maintenance
 
-Use this reference when adding, updating, or auditing repository-level reference collections under `PE_ref/`.
+Use this reference when adding, updating, or auditing repository-level reference collections under `PE_IEEE_reference/`.
 
 ## Purpose
 
@@ -29,9 +29,9 @@ The repository can maintain author- or topic-based BibTeX collections from IEEE 
    - Keep exported IEEE article-number keys unless creating a manual curated topic list.
 
 5. Save three files when maintaining a full collection.
-   - `PE_ref/<normalized_author>_reference.bib`
-   - `PE_ref/<normalized_author>_reference.md`
-   - `PE_ref/<normalized_author>_reference.html`
+   - `PE_IEEE_reference/<normalized_author>_reference.bib`
+   - `PE_IEEE_reference/<normalized_author>_reference.md`
+   - `PE_IEEE_reference/<normalized_author>_reference.html`
 
 6. Rebuild the index.
 
@@ -39,7 +39,7 @@ The repository can maintain author- or topic-based BibTeX collections from IEEE 
 python scripts/build-reference-index.py
 ```
 
-7. Review the generated `PE_ref/references-index.json`.
+7. Review the generated `PE_IEEE_reference/references-index.json`.
    - `record_count`
    - `duplicate_key_count`
    - `verification_status_counts`
@@ -58,5 +58,5 @@ For each `<author>_reference.md`, include:
 
 ## Citation Use Rule
 
-When drafting a paper, first find candidate references through `PE_ref/references-index.json`, then copy only relevant, verified BibTeX entries into the manuscript-local `refs/references.bib`.
+When drafting a paper, first find candidate references through `PE_IEEE_reference/references-index.json`, then copy only relevant, verified BibTeX entries into the manuscript-local `refs/references.bib`.
 

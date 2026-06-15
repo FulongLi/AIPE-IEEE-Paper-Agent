@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+﻿#!/usr/bin/env python3
 """Build a JSON index from repository BibTeX reference files."""
 
 from __future__ import annotations
@@ -185,8 +185,8 @@ def build_index(ref_dir: Path) -> dict[str, object]:
 
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("--ref-dir", default="PE_ref", help="directory containing .bib files")
-    parser.add_argument("--output", default="PE_ref/references-index.json", help="output JSON path")
+    parser.add_argument("--ref-dir", default="PE_IEEE_reference", help="directory containing .bib files")
+    parser.add_argument("--output", default="PE_IEEE_reference/references-index.json", help="output JSON path")
     args = parser.parse_args()
 
     ref_dir = Path(args.ref_dir).resolve()

@@ -1,4 +1,4 @@
-# Codex Instructions for IEEE Paper Agent
+﻿# Codex Instructions for IEEE Paper Agent
 
 This repository is a writing assistant workspace for IEEE-style research papers. When a user opens this repo in Codex and asks for help writing, planning, revising, or reviewing a paper, treat the repo as a reusable paper-production system rather than a generic file collection.
 
@@ -48,7 +48,7 @@ Keep figures in `figures/`, BibTeX files in `refs/`, template support files in `
 
 ## Citation Handling
 
-Every reference must be traceable to user-provided sources, manuscript-local BibTeX, `PE_ref/`, IEEE Xplore/DOI records, or another trusted source. Do not fabricate BibTeX entries. If a reference cannot be verified, mark it in `notes/citation-audit.md` or leave a citation placeholder.
+Every reference must be traceable to user-provided sources, manuscript-local BibTeX, `PE_IEEE_reference/`, IEEE Xplore/DOI records, or another trusted source. Do not fabricate BibTeX entries. If a reference cannot be verified, mark it in `notes/citation-audit.md` or leave a citation placeholder.
 
 ## Copyright and Knowledge Base Boundary
 

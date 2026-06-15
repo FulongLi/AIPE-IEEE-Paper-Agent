@@ -1,4 +1,4 @@
-# IEEE Paper Agent
+﻿# IEEE Paper Agent
 
 Current version: `0.1.0`
 
@@ -20,7 +20,7 @@ Codex should use:
 - `skills/ieee-paper-latex-writing/SKILL.md` for the core writing and LaTeX workflow
 - `workflows/idea-to-paper.md` for idea-to-paper planning
 - `knowledge-base/power-electronics-foundations/` for power electronics terminology and concept notes
-- `PE_ref/` for repository-local power electronics reference candidates
+- `PE_IEEE_reference/` for repository-local power electronics reference candidates
 - `templates/` for reusable idea briefs and paper plans
 
 ## Install as a Skill or Plugin
@@ -135,7 +135,7 @@ Use ieee-paper-latex-writing to help me rewrite the abstract and introduction fo
 - `references/manuscript-workspace-standard.md`: Overleaf-compatible manuscript folder standard.
 - `references/figure-generation-workflow.md`: AI figure generation workflow for framework diagrams and paper illustrations.
 - `references/citation-verification-policy.md`: Rules for traceable citations and BibTeX entries.
-- `references/reference-collection-maintenance.md`: Workflow for maintaining author/topic reference collections under `PE_ref/`.
+- `references/reference-collection-maintenance.md`: Workflow for maintaining author/topic reference collections under `PE_IEEE_reference/`.
 
 ## Power Electronics Knowledge Base
 
@@ -149,10 +149,10 @@ It provides domain vocabulary, concept maps, IEEE-style sentence patterns, and a
 
 ## Reference Index
 
-Repository-local reference candidates live under `PE_ref/`. The machine-readable index is:
+Repository-local reference candidates live under `PE_IEEE_reference/`. The machine-readable index is:
 
 ```text
-PE_ref/references-index.json
+PE_IEEE_reference/references-index.json
 ```
 
 Regenerate it after adding, removing, or editing BibTeX files:
@@ -171,21 +171,22 @@ workflows/reference-collection-maintenance.md
 
 ### Included Reference Collections
 
-The current `PE_ref/` library includes curated BibTeX collections for several influential power electronics researchers and topics:
+The current `PE_IEEE_reference/` library includes curated BibTeX collections for several influential power electronics researchers and topics:
 
 | Collection | BibTeX File | Records |
 | --- | --- | ---: |
-| Fred C. Lee | `PE_ref/fred_c_lee_reference.bib` | 1051 |
-| Johann W. Kolar | `PE_ref/johann_w_kolar_reference.bib` | 839 |
-| Xiangning He | `PE_ref/xiangning_he_reference.bib` | 481 |
-| Dragan Maksimović | `PE_ref/dragan_maksimovic_reference.bib` | 431 |
-| Scott D. Sudhoff | `PE_ref/scott_d_sudhoff_reference.bib` | 164 |
-| Robert W. Erickson | `PE_ref/robert_w_erickson_reference.bib` | 116 |
-| R. D. Middlebrook | `PE_ref/r_d_middlebrook_reference.bib` | 47 |
-| Thomas Guillod | `PE_ref/Thomas_Guillod_reference.bib` | 45 |
-| Daniel Rothmund | `PE_ref/daniel_rothmund_reference.bib` | 19 |
-| Kolar/Guillod converter optimization topic set | `PE_ref/kolar_guillod_converter_optimization.bib` | 17 |
-| AI paper-agent background references | `PE_ref/AIPE_added_refs.bib` | 3 |
+| Fred C. Lee | `PE_IEEE_reference/fred_c_lee_reference.bib` | 1051 |
+| Johann W. Kolar | `PE_IEEE_reference/johann_w_kolar_reference.bib` | 839 |
+| Xiangning He | `PE_IEEE_reference/xiangning_he_reference.bib` | 481 |
+| Dragan Maksimović | `PE_IEEE_reference/dragan_maksimovic_reference.bib` | 431 |
+| Scott D. Sudhoff | `PE_IEEE_reference/scott_d_sudhoff_reference.bib` | 164 |
+| Robert W. Erickson | `PE_IEEE_reference/robert_w_erickson_reference.bib` | 116 |
+| R. D. Middlebrook | `PE_IEEE_reference/r_d_middlebrook_reference.bib` | 47 |
+| Thomas Guillod | `PE_IEEE_reference/Thomas_Guillod_reference.bib` | 45 |
+| Daniel Rothmund | `PE_IEEE_reference/daniel_rothmund_reference.bib` | 19 |
+| Zhengyu Lin | `PE_IEEE_reference/zhengyu_lin_reference.bib` | 35 |
+| Kolar/Guillod converter optimization topic set | `PE_IEEE_reference/kolar_guillod_converter_optimization.bib` | 17 |
+| AI paper-agent background references | `PE_IEEE_reference/AIPE_added_refs.bib` | 3 |
 
 These collections are reference candidates, not automatic endorsements. Manuscripts should still cite only sources that are relevant to the claim being made, and uncertain entries should be verified through DOI records, IEEE Xplore, publisher pages, or author-provided sources before submission.
 
@@ -198,7 +199,7 @@ Use these files when turning an early idea into a paper:
 - `workflows/manuscript-workspace-standard.md`: standard folder layout for each generated paper
 - `workflows/figure-generation.md`: AI figure-generation workflow for diagrams saved into `figures/`
 - `workflows/reference-verification.md`: citation and BibTeX verification workflow
-- `workflows/reference-collection-maintenance.md`: workflow for adding/updating `PE_ref/` author and topic collections
+- `workflows/reference-collection-maintenance.md`: workflow for adding/updating `PE_IEEE_reference/` author and topic collections
 - `workflows/prompt-library.md`: copy-ready prompts for Codex
 - `templates/research-idea-brief.md`: input template for a new idea
 - `templates/paper-plan.md`: structured output template for a paper plan
@@ -208,7 +209,7 @@ Use these files when turning an early idea into a paper:
 Lightweight scripts live in `scripts/`:
 
 - `scripts/create-manuscript.py`: create the standard `manuscripts/<paper-slug>/` workspace with section, figure, reference, style, note, and build folders.
-- `scripts/build-reference-index.py`: rebuild `PE_ref/references-index.json` from repository BibTeX files.
+- `scripts/build-reference-index.py`: rebuild `PE_IEEE_reference/references-index.json` from repository BibTeX files.
 - `scripts/check-citations.py`: compare LaTeX `\cite{...}` keys against local `.bib` entries and optionally write `notes/citation-audit.md`.
 
 These scripts are guardrails for repeatable project setup and citation hygiene. They do not generate experimental results or verified references.

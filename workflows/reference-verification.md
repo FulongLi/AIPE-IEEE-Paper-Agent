@@ -1,4 +1,4 @@
-# Reference Verification Workflow
+﻿# Reference Verification Workflow
 
 Use this workflow whenever the agent drafts related work, inserts citations, builds BibTeX, or audits a manuscript.
 
@@ -10,8 +10,8 @@ Every citation must be traceable. The agent must not invent authors, titles, ven
 
 1. User-provided BibTeX, DOI, URL, or uploaded reference list.
 2. The manuscript workspace `refs/references.bib`.
-3. Repository reference index `PE_ref/references-index.json`.
-4. Repository references under `PE_ref/*.bib`.
+3. Repository reference index `PE_IEEE_reference/references-index.json`.
+4. Repository references under `PE_IEEE_reference/*.bib`.
 5. Official publisher records such as IEEE Xplore, DOI pages, arXiv, or standards bodies when browsing is available.
 6. Explicit placeholders when verification is not possible.
 
@@ -20,7 +20,7 @@ Every citation must be traceable. The agent must not invent authors, titles, ven
 - Use citation placeholders instead of fake citations.
 - Prefer primary literature for method comparisons.
 - Use surveys for broad taxonomy and positioning.
-- Use `PE_ref/references-index.json` to find candidate references, then trace each selected record back to its `source_file`.
+- Use `PE_IEEE_reference/references-index.json` to find candidate references, then trace each selected record back to its `source_file`.
 - Mark incomplete or uncertain references in `notes/citation-audit.md`.
 - Ensure every `\cite{...}` key exists in a BibTeX file before final review.
 

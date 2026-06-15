@@ -1,4 +1,4 @@
-# Citation Verification Policy
+﻿# Citation Verification Policy
 
 Use this policy whenever generating, editing, or auditing references for an IEEE manuscript.
 
@@ -12,8 +12,8 @@ Prefer references in this order:
 
 1. User-provided BibTeX or DOI/URL.
 2. Manuscript-local `refs/references.bib`.
-3. Repository reference index `PE_ref/references-index.json`, when the full repository is available.
-4. Repository reference files such as `PE_ref/*.bib`.
+3. Repository reference index `PE_IEEE_reference/references-index.json`, when the full repository is available.
+4. Repository reference files such as `PE_IEEE_reference/*.bib`.
 5. Official publisher pages, IEEE Xplore, DOI records, arXiv, or university/project pages when browsing is available.
 6. Clearly marked placeholders when verification is not possible.
 
@@ -37,7 +37,7 @@ Use `@article`, `@inproceedings`, `@book`, `@standard`, `@misc`, or another appr
 - Every strong technical claim must be supported by evidence, a citation, or a clearly marked author-provided result.
 - Prefer primary technical papers for method claims.
 - Use surveys for taxonomy and context, not as the only support for a specific prior method.
-- When using `PE_ref/references-index.json`, trace selected records back to `source_file` before copying BibTeX into the manuscript.
+- When using `PE_IEEE_reference/references-index.json`, trace selected records back to `source_file` before copying BibTeX into the manuscript.
 - Mark uncertain citations with `% TODO: verify citation` or add them to `notes/citation-audit.md`.
 
 ## Reference Index Maintenance

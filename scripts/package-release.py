@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+﻿#!/usr/bin/env python3
 """Package Codex and Claude release artifacts for the IEEE Paper Agent."""
 
 from __future__ import annotations
@@ -54,7 +54,7 @@ def rebuild_reference_index() -> None:
 
 def copy_common_assets(target: Path) -> None:
     assets = target / "assets"
-    copy_tree(ROOT / "PE_ref", assets / "PE_ref")
+    copy_tree(ROOT / "PE_IEEE_reference", assets / "PE_IEEE_reference")
     copy_tree(ROOT / "templates", assets / "templates")
     copy_tree(ROOT / "workflows", assets / "workflows")
     copy_tree(ROOT / "knowledge-base", assets / "knowledge-base")
@@ -183,7 +183,7 @@ Regenerate with:
 python scripts/package-release.py
 ```
 
-The script rebuilds `PE_ref/references-index.json` before packaging.
+The script rebuilds `PE_IEEE_reference/references-index.json` before packaging.
 """
     (DIST / "RELEASE.md").write_text(notes, encoding="utf-8")
 

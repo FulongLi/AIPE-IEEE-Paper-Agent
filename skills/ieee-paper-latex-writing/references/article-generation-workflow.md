@@ -1,4 +1,4 @@
-# Plan-to-Article Workflow
+﻿# Plan-to-Article Workflow
 
 Use this reference after the user already has a paper plan, section plan, or research brief and wants the skill to produce a manuscript scaffold or draft.
 
@@ -47,7 +47,7 @@ If any item is missing, continue with labeled assumptions and create `notes/evid
    - Use power electronics vocabulary and language-bank material when the topic is in power electronics.
 
 5. Add citations conservatively.
-   - Use verified BibTeX entries from the manuscript `refs/` folder, the repository `PE_ref/` folder, or user-provided trusted sources.
+   - Use verified BibTeX entries from the manuscript `refs/` folder, the repository `PE_IEEE_reference/` folder, or user-provided trusted sources.
    - Use `citation-needed` comments instead of invented references.
    - Follow `citation-verification-policy.md`.
 

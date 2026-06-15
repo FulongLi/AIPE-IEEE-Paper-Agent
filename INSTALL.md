@@ -1,4 +1,4 @@
-# Installing AIPE IEEE Paper Agent
+﻿# Installing AIPE IEEE Paper Agent
 
 This repository supports three installation paths:
 
@@ -91,7 +91,7 @@ Use the AIPE IEEE Paper Agent skill. Turn this paper plan into an IEEE manuscrip
    - `workflows/`
    - `templates/`
    - `knowledge-base/`
-   - `PE_ref/*.bib`
+   - `PE_IEEE_reference/*.bib`
    - `scripts/`
 
 2. Update `VERSION` using semantic versioning:

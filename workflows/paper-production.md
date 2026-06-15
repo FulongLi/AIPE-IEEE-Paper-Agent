@@ -1,4 +1,4 @@
-# Paper Production Workflow
+﻿# Paper Production Workflow
 
 Use this workflow after the idea has a clear paper plan. If the user only has a rough idea, use `workflows/idea-to-paper.md` first.
 
@@ -84,7 +84,7 @@ Use `workflows/reference-verification.md`.
 Check:
 
 - every `\cite{...}` resolves to a BibTeX entry,
-- references come from user-provided sources, `refs/`, `PE_ref/`, or verified external records,
+- references come from user-provided sources, `refs/`, `PE_IEEE_reference/`, or verified external records,
 - no invented citations or BibTeX entries are present,
 - strong claims have either evidence or citation support,
 - unresolved sources are tracked in `notes/citation-audit.md`.
