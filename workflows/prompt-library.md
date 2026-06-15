@@ -81,6 +81,17 @@ Paper plan:
 Create an Overleaf-ready manuscript workspace. Draft only the sections that are supported by the provided plan and evidence. Put missing experiments, missing figures, and unsupported claims into notes/evidence-checklist.md. Do not invent citations or numerical results.
 ```
 
+## Generate Paper Figures
+
+```text
+Use workflows/figure-generation.md and the paper plan below.
+
+Paper plan:
+<paste plan>
+
+Create notes/figure-plan.md, then generate the required framework diagrams with Image 2 or the available image-generation tool. Save final image assets in figures/ and add LaTeX figure snippets using relative paths. Do not invent measured plots or numerical results.
+```
+
 ## Verify References Before Drafting Related Work
 
 ```text

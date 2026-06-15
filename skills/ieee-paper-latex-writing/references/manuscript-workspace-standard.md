@@ -22,6 +22,7 @@ manuscripts/
     ├── notes/
     │   ├── paper-plan.md
     │   ├── evidence-checklist.md
+    │   ├── figure-plan.md
     │   ├── citation-audit.md
     │   └── latex-todo.md
     └── build/
@@ -53,6 +54,7 @@ Copy the template into the manuscript workspace or copy required support files i
 
 - Keep paths relative to `main.tex`.
 - Avoid local absolute paths.
+- Store all generated images and author-provided paper figures in `figures/`.
 - Avoid spaces, non-ASCII characters, and punctuation-heavy filenames for new assets.
 - Keep the bibliography file in `refs/references.bib` unless the template strongly expects another name.
 - Include all `.cls`, `.bst`, `.sty`, font, logo, and figure files needed for a clean Overleaf compile.
@@ -67,4 +69,3 @@ manuscripts/wide-input-dcdc-control/
 ```
 
 Do not place new manuscript drafts inside the original template directories.
-

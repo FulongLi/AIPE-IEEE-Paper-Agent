@@ -131,6 +131,7 @@ Use ieee-paper-latex-writing to help me rewrite the abstract and introduction fo
 - `references/reviewer-response.md`: Reviewer-response and revision workflow.
 - `references/article-generation-workflow.md`: Plan-to-manuscript workflow for generating article scaffolds and drafts.
 - `references/manuscript-workspace-standard.md`: Overleaf-compatible manuscript folder standard.
+- `references/figure-generation-workflow.md`: AI figure generation workflow for framework diagrams and paper illustrations.
 - `references/citation-verification-policy.md`: Rules for traceable citations and BibTeX entries.
 
 ## Power Electronics Knowledge Base
@@ -159,6 +160,26 @@ python scripts/build-reference-index.py
 
 The index records citation keys, titles, authors, years, venues, DOI/URL fields, source `.bib` files, inferred topics, duplicate keys, and verification status. Use it for retrieval and citation audit, then copy verified BibTeX entries into the manuscript-local `refs/references.bib`.
 
+### Included Reference Collections
+
+The current `PE_ref/` library includes curated BibTeX collections for several influential power electronics researchers and topics:
+
+| Collection | BibTeX File | Records |
+| --- | --- | ---: |
+| Fred C. Lee | `PE_ref/fred_c_lee_reference.bib` | 1051 |
+| Johann W. Kolar | `PE_ref/johann_w_kolar_reference.bib` | 839 |
+| Xiangning He | `PE_ref/xiangning_he_reference.bib` | 481 |
+| Dragan Maksimović | `PE_ref/dragan_maksimovic_reference.bib` | 431 |
+| Scott D. Sudhoff | `PE_ref/scott_d_sudhoff_reference.bib` | 164 |
+| Robert W. Erickson | `PE_ref/robert_w_erickson_reference.bib` | 116 |
+| R. D. Middlebrook | `PE_ref/r_d_middlebrook_reference.bib` | 47 |
+| Thomas Guillod | `PE_ref/Thomas_Guillod_reference.bib` | 45 |
+| Daniel Rothmund | `PE_ref/daniel_rothmund_reference.bib` | 19 |
+| Kolar/Guillod converter optimization topic set | `PE_ref/kolar_guillod_converter_optimization.bib` | 17 |
+| AI paper-agent background references | `PE_ref/AIPE_added_refs.bib` | 3 |
+
+These collections are reference candidates, not automatic endorsements. Manuscripts should still cite only sources that are relevant to the claim being made, and uncertain entries should be verified through DOI records, IEEE Xplore, publisher pages, or author-provided sources before submission.
+
 ## Workflows and Templates
 
 Use these files when turning an early idea into a paper:
@@ -166,6 +187,7 @@ Use these files when turning an early idea into a paper:
 - `workflows/idea-to-paper.md`: raw idea to research spine, contributions, outline, and evidence plan
 - `workflows/paper-production.md`: paper plan to LaTeX manuscript workflow
 - `workflows/manuscript-workspace-standard.md`: standard folder layout for each generated paper
+- `workflows/figure-generation.md`: AI figure-generation workflow for diagrams saved into `figures/`
 - `workflows/reference-verification.md`: citation and BibTeX verification workflow
 - `workflows/prompt-library.md`: copy-ready prompts for Codex
 - `templates/research-idea-brief.md`: input template for a new idea
@@ -192,10 +214,11 @@ These scripts are guardrails for repeatable project setup and citation hygiene. 
    - What experiments, theory, or evidence support those contributions?
 3. Choose the target IEEE venue and template.
 4. Create a manuscript workspace using `workflows/manuscript-workspace-standard.md`.
-5. Draft the method, evidence, results, introduction, related work, abstract, and conclusion in evidence order.
-6. Verify references with `workflows/reference-verification.md`.
-7. Compile the PDF and use the LaTeX checklist to review formatting, citations, figures, equations, and page limits.
-8. Run a publication-readiness review before submission.
+5. Generate or plan required framework diagrams with `workflows/figure-generation.md` and save all figure assets in `figures/`.
+6. Draft the method, evidence, results, introduction, related work, abstract, and conclusion in evidence order.
+7. Verify references with `workflows/reference-verification.md`.
+8. Compile the PDF and use the LaTeX checklist to review formatting, citations, figures, equations, and page limits.
+9. Run a publication-readiness review before submission.
 
 ## Who This Is For
 

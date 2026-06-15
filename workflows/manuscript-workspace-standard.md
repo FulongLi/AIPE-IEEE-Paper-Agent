@@ -22,6 +22,7 @@ manuscripts/
     ├── notes/
     │   ├── paper-plan.md
     │   ├── evidence-checklist.md
+    │   ├── figure-plan.md
     │   ├── citation-audit.md
     │   └── latex-todo.md
     └── build/
@@ -45,5 +46,5 @@ manuscripts/
 - Use relative paths so the workspace can be uploaded to Overleaf.
 - Do not use local absolute paths in LaTeX files.
 - Do not create unsupported experimental claims. Put missing results in `notes/evidence-checklist.md`.
+- Put every generated or author-provided paper image in `figures/`; do not reference images outside the manuscript workspace.
 - Do not fabricate citations. Put uncertain sources in `notes/citation-audit.md`.
-

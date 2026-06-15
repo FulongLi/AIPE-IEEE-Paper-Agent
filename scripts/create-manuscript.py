@@ -55,6 +55,10 @@ def create_workspace(root: Path, slug: str, title: str, template: Path | None) -
         "# Evidence Checklist\n\n- [ ] TODO: List missing experiments, figures, baselines, and claims.\n",
     )
     write_if_missing(
+        workspace / "notes" / "figure-plan.md",
+        "# Figure Plan\n\n| Figure | Section | Purpose | Type | Prompt/File | Revision Notes |\n| --- | --- | --- | --- | --- | --- |\n| Fig. 1 | Introduction | TODO | block diagram | figures/fig-system-overview.png | TODO |\n",
+    )
+    write_if_missing(
         workspace / "notes" / "citation-audit.md",
         "# Citation Audit\n\nTODO: Run scripts/check-citations.py after citations are added.\n",
     )
@@ -128,4 +132,3 @@ def main() -> int:
 
 if __name__ == "__main__":
     raise SystemExit(main())
-

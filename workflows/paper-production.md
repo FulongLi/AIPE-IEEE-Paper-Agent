@@ -52,9 +52,18 @@ Create the paper skeleton before full prose:
 - citation placeholders,
 - experiment checklist,
 - evidence checklist,
+- figure generation plan,
 - citation audit.
 
-## Stage 3: Draft in Evidence Order
+## Stage 3: Generate or Plan Figures
+
+Use `workflows/figure-generation.md`.
+
+After the paper framework is agreed, create `notes/figure-plan.md` and generate the required conceptual diagrams with Image 2 or the available image-generation tool. Save all generated figure assets in `figures/` and record prompts, filenames, and revision notes.
+
+Use AI-generated figures for block diagrams, framework illustrations, topology overviews, method workflows, and conceptual schematics. Do not invent measured plots, numerical curves, waveforms, or experiment results.
+
+## Stage 4: Draft in Evidence Order
 
 Recommended order:
 
@@ -68,7 +77,7 @@ Recommended order:
 
 This order keeps the Introduction and Abstract honest because they are written after the evidence is visible.
 
-## Stage 4: Reference Verification Pass
+## Stage 5: Reference Verification Pass
 
 Use `workflows/reference-verification.md`.
 
@@ -80,7 +89,7 @@ Check:
 - strong claims have either evidence or citation support,
 - unresolved sources are tracked in `notes/citation-audit.md`.
 
-## Stage 5: IEEE Style Pass
+## Stage 6: IEEE Style Pass
 
 Check:
 
@@ -92,7 +101,7 @@ Check:
 - citations support related work and technical claims,
 - limitations are stated without weakening the contribution unnecessarily.
 
-## Stage 6: LaTeX Submission Pass
+## Stage 7: LaTeX Submission Pass
 
 Use:
 
@@ -111,7 +120,7 @@ Check:
 - no template filler text,
 - no local absolute file paths.
 
-## Stage 7: Publication-Readiness Review
+## Stage 8: Publication-Readiness Review
 
 Review the manuscript as if acting as a strict IEEE reviewer:
 
@@ -122,4 +131,3 @@ Review the manuscript as if acting as a strict IEEE reviewer:
 - Are figures and tables necessary and interpretable?
 - Are limitations handled honestly?
 - Would a reviewer know why the work matters?
-

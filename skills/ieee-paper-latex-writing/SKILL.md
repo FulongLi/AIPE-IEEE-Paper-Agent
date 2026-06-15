@@ -20,6 +20,7 @@ This skill can operate in two modes:
    - If the user only has a raw idea, first produce a plan: problem, gap, thesis, contributions, outline, evidence plan, figure/table plan, template direction, and next actions.
    - If the user already has a plan or section plan, load `references/article-generation-workflow.md` before creating manuscript files.
    - If the user wants a LaTeX workspace or Overleaf package, load `references/manuscript-workspace-standard.md`.
+   - If the task involves generating paper figures, diagrams, or framework illustrations, load `references/figure-generation-workflow.md`.
    - If the task involves citations, BibTeX, related work, or literature retrieval, load `references/citation-verification-policy.md`.
 
 2. Identify the target venue and template before editing.
@@ -38,6 +39,7 @@ This skill can operate in two modes:
 4. Draft from argument to prose.
    - Start with title, contribution bullets, figure/table plan, and section outline.
    - When generating a full manuscript, create the workspace first and keep draft TODOs in `notes/`.
+   - After the paper framework is agreed, generate or plan figures using the AI figure workflow and store final assets in `figures/`.
    - Write the Introduction as a funnel: problem importance, technical barrier, gap in existing work, core idea, evidence and contributions.
    - Write Methods for reproducibility, not narrative charm.
    - Write Experiments around research questions, baselines, metrics, ablations, and failure cases.
@@ -72,6 +74,8 @@ For a raw idea, produce in this order: thesis, contribution list, outline, figur
 
 For a planned paper, load `references/article-generation-workflow.md` and produce in this order: normalized plan, workspace structure, LaTeX skeleton, section drafts where evidence exists, citation audit, and author TODOs.
 
+For figure generation, load `references/figure-generation-workflow.md`, create `notes/figure-plan.md`, generate only argument-supporting diagrams, save assets under `figures/`, and integrate them with relative LaTeX paths.
+
 For rewriting, preserve the user's technical meaning but improve the argument structure, specificity, and IEEE tone. Do not invent results, baselines, datasets, or citations. Mark missing evidence explicitly.
 
 For LaTeX debugging, first identify the class/template and compiler path, then inspect only the relevant source, log, bibliography, and figure declarations. Prefer small source edits over template rewrites.
@@ -89,6 +93,7 @@ Load these only when the task needs more detail:
 - `references/reviewer-response.md`: revision and rebuttal workflow for peer review.
 - `references/article-generation-workflow.md`: plan-to-manuscript generation workflow.
 - `references/manuscript-workspace-standard.md`: required manuscript workspace layout and Overleaf-compatible file organization.
+- `references/figure-generation-workflow.md`: AI figure generation, storage, and LaTeX integration workflow.
 - `references/citation-verification-policy.md`: citation and BibTeX verification rules.
 
 ## Output Standards
