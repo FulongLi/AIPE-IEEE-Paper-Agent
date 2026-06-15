@@ -6,6 +6,8 @@ This folder contains reusable workflows for turning a research idea into an IEEE
 
 - `idea-to-paper.md`: Convert a raw research idea into a paper plan, outline, and evidence roadmap.
 - `paper-production.md`: Move from a validated paper plan to LaTeX draft production.
+- `manuscript-workspace-standard.md`: Define the standard Overleaf-compatible folder layout for each generated paper.
+- `reference-verification.md`: Check citation traceability and BibTeX consistency.
 - `prompt-library.md`: Copy-ready Codex prompts for common paper-writing tasks.
 
 ## Recommended Starting Prompt

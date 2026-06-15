@@ -67,6 +67,34 @@ Paper plan:
 Recommend the template folder, manuscript workspace structure, section skeleton, and LaTeX TODO list.
 ```
 
+## Generate a Manuscript Workspace From a Paper Plan
+
+```text
+Use skills/ieee-paper-latex-writing/SKILL.md, references/article-generation-workflow.md, and workflows/manuscript-workspace-standard.md.
+
+Target venue/template:
+<conference / Transactions / IEEE Access / unknown>
+
+Paper plan:
+<paste plan>
+
+Create an Overleaf-ready manuscript workspace. Draft only the sections that are supported by the provided plan and evidence. Put missing experiments, missing figures, and unsupported claims into notes/evidence-checklist.md. Do not invent citations or numerical results.
+```
+
+## Verify References Before Drafting Related Work
+
+```text
+Use workflows/reference-verification.md and skills/ieee-paper-latex-writing/references/citation-verification-policy.md.
+
+Manuscript or paper plan:
+<path or paste content>
+
+Available reference sources:
+<refs.bib / PE_ref / DOI list / IEEE Xplore links / unknown>
+
+Audit the citations and produce notes/citation-audit.md. Mark missing or uncertain references instead of inventing BibTeX.
+```
+
 ## Review a Draft Before Submission
 
 ```text

@@ -4,6 +4,14 @@
 
 ## Target Venue
 
+## Manuscript Workspace
+
+Paper slug:
+
+Template family:
+
+Overleaf / local LaTeX notes:
+
 ## Research Spine
 
 Problem:
@@ -62,5 +70,13 @@ Impact:
 | | Blocking / Important / Optional | |
 
 ## Recommended LaTeX Template
+
+## Reference Plan
+
+Known reference sources:
+
+Repository reference files to inspect:
+
+Missing citations to verify:
 
 ## Next Actions
