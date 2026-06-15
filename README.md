@@ -21,6 +21,27 @@ Codex should use:
 - `PE_ref/` for repository-local power electronics reference candidates
 - `templates/` for reusable idea briefs and paper plans
 
+## Install as a Skill or Plugin
+
+For installation instructions, see:
+
+```text
+INSTALL.md
+```
+
+The short version:
+
+- Codex source skill: install `skills/ieee-paper-latex-writing` from this GitHub repository.
+- Codex full package: use `ieee-paper-latex-writing-codex-skill-v<version>.zip` from a release.
+- Codex plugin package: use `aipe-ieee-paper-agent-codex-plugin-marketplace-v<version>.zip` from a release.
+- Claude skill package: use `aipe-ieee-paper-agent-claude-skill-v<version>.zip` from a release.
+
+Maintainers can generate all release packages with:
+
+```bash
+python scripts/package-release.py
+```
+
 ## What This Repository Does
 
 - Collects common IEEE LaTeX templates, including conference, Transactions/journal, IEEE Access, TAI, OJCSYS, and OJPEL formats.
