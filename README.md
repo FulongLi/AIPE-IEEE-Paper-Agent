@@ -184,8 +184,8 @@ The current `PE_IEEE_reference/` library includes curated BibTeX collections for
 | R. D. Middlebrook | `PE_IEEE_reference/r_d_middlebrook_reference.bib` | 47 |
 | Thomas Guillod | `PE_IEEE_reference/Thomas_Guillod_reference.bib` | 45 |
 | Tim C. Green | `PE_IEEE_reference/tim_c_green_reference.bib` | 47 |
+| Barry W. Williams | `PE_IEEE_reference/barry_w_williams_reference.bib` | 299 |
 | Daniel Rothmund | `PE_IEEE_reference/daniel_rothmund_reference.bib` | 19 |
-| Zhengyu Lin | `PE_IEEE_reference/zhengyu_lin_reference.bib` | 35 |
 | Kolar/Guillod converter optimization topic set | `PE_IEEE_reference/kolar_guillod_converter_optimization.bib` | 17 |
 | AI paper-agent background references | `PE_IEEE_reference/AIPE_added_refs.bib` | 3 |
 
