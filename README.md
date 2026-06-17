@@ -171,25 +171,32 @@ workflows/reference-collection-maintenance.md
 
 ### Included Reference Collections
 
-The current `PE_IEEE_reference/` library includes curated BibTeX collections for several influential power electronics researchers and topics:
+The current `PE_IEEE_reference/` library separates author-based collections from topic-based collections. Author collections are useful for tracing influential researchers' publication records, while topic collections are curated around power-electronics directions such as converter optimization, microgrids, modulation, stability, or other themes that may be added later.
 
-| Collection | BibTeX File | Records |
+#### Author Collections
+
+| Author | BibTeX File | Records |
 | --- | --- | ---: |
 | Fred C. Lee | `PE_IEEE_reference/fred_c_lee_reference.bib` | 1051 |
 | Johann W. Kolar | `PE_IEEE_reference/johann_w_kolar_reference.bib` | 839 |
-| Xiangning He | `PE_IEEE_reference/xiangning_he_reference.bib` | 481 |
-| Dragan Maksimović | `PE_IEEE_reference/dragan_maksimovic_reference.bib` | 431 |
 | Dushan Boroyevich | `PE_IEEE_reference/dushan_boroyevich_reference.bib` | 715 |
 | Jinjun Liu | `PE_IEEE_reference/jinjun_liu_reference.bib` | 484 |
+| Xiangning He | `PE_IEEE_reference/xiangning_he_reference.bib` | 481 |
+| Dragan Maksimović | `PE_IEEE_reference/dragan_maksimovic_reference.bib` | 431 |
+| Barry W. Williams | `PE_IEEE_reference/barry_w_williams_reference.bib` | 299 |
 | Scott D. Sudhoff | `PE_IEEE_reference/scott_d_sudhoff_reference.bib` | 164 |
 | Robert W. Erickson | `PE_IEEE_reference/robert_w_erickson_reference.bib` | 116 |
 | R. D. Middlebrook | `PE_IEEE_reference/r_d_middlebrook_reference.bib` | 47 |
-| Thomas Guillod | `PE_IEEE_reference/Thomas_Guillod_reference.bib` | 45 |
 | Tim C. Green | `PE_IEEE_reference/tim_c_green_reference.bib` | 47 |
-| Barry W. Williams | `PE_IEEE_reference/barry_w_williams_reference.bib` | 299 |
+| Thomas Guillod | `PE_IEEE_reference/Thomas_Guillod_reference.bib` | 45 |
 | Daniel Rothmund | `PE_IEEE_reference/daniel_rothmund_reference.bib` | 19 |
-| Kolar/Guillod converter optimization topic set | `PE_IEEE_reference/kolar_guillod_converter_optimization.bib` | 17 |
-| AI paper-agent background references | `PE_IEEE_reference/AIPE_added_refs.bib` | 3 |
+
+#### Topic Collections
+
+| Topic / Direction | Collection | BibTeX File | Records |
+| --- | --- | --- | ---: |
+| Converter optimization | Kolar/Guillod converter optimization topic set | `PE_IEEE_reference/kolar_guillod_converter_optimization.bib` | 17 |
+| Paper-agent background | AI paper-agent background references | `PE_IEEE_reference/AIPE_added_refs.bib` | 3 |
 
 These collections are reference candidates, not automatic endorsements. Manuscripts should still cite only sources that are relevant to the claim being made, and uncertain entries should be verified through DOI records, IEEE Xplore, publisher pages, or author-provided sources before submission.
 
