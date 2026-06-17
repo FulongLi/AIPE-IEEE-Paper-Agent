@@ -180,6 +180,7 @@ The current `PE_IEEE_reference/` library includes curated BibTeX collections for
 | Xiangning He | `PE_IEEE_reference/xiangning_he_reference.bib` | 481 |
 | Dragan Maksimović | `PE_IEEE_reference/dragan_maksimovic_reference.bib` | 431 |
 | Dushan Boroyevich | `PE_IEEE_reference/dushan_boroyevich_reference.bib` | 715 |
+| Jinjun Liu | `PE_IEEE_reference/jinjun_liu_reference.bib` | 484 |
 | Scott D. Sudhoff | `PE_IEEE_reference/scott_d_sudhoff_reference.bib` | 164 |
 | Robert W. Erickson | `PE_IEEE_reference/robert_w_erickson_reference.bib` | 116 |
 | R. D. Middlebrook | `PE_IEEE_reference/r_d_middlebrook_reference.bib` | 47 |
