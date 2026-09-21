@@ -1,0 +1,42 @@
+{
+  "schema_version": 1,
+  "id": "ieee-transactions",
+  "family": "journal",
+  "document_class": {
+    "name": "IEEEtran",
+    "options": [
+      "lettersize",
+      "journal"
+    ]
+  },
+  "template": {
+    "path": "venues/ieee-transactions/template",
+    "entry": "bare_jrnl_new_sample4.tex",
+    "encoding": "utf-8"
+  },
+  "bibliography": {
+    "style": "IEEEtran"
+  },
+  "layout": {
+    "columns": 2
+  },
+  "requirements": {
+    "abstract": true,
+    "keywords": true
+  },
+  "normalization": {
+    "body_start": "\\section{Introduction}",
+    "keywords_environment": "IEEEkeywords",
+    "placeholder_environments": [],
+    "end_commands": []
+  },
+  "checks": {
+    "preserve_class": true,
+    "preserve_margins": true,
+    "preserve_fonts": true,
+    "required_commands": [
+      "\\maketitle"
+    ],
+    "required_assets": []
+  }
+}

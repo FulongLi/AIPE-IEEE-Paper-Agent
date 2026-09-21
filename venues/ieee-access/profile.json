@@ -1,0 +1,53 @@
+{
+  "schema_version": 1,
+  "id": "ieee-access",
+  "family": "journal",
+  "document_class": {
+    "name": "ieeeaccess",
+    "options": []
+  },
+  "template": {
+    "path": "venues/ieee-access/template",
+    "entry": "access.tex",
+    "encoding": "utf-8"
+  },
+  "bibliography": {
+    "style": "IEEEtran"
+  },
+  "layout": {
+    "columns": 2
+  },
+  "requirements": {
+    "abstract": true,
+    "keywords": true
+  },
+  "normalization": {
+    "body_start": "\\section{Introduction}",
+    "keywords_environment": "keywords",
+    "placeholder_environments": [],
+    "end_commands": [
+      "\\EOD"
+    ]
+  },
+  "checks": {
+    "preserve_class": true,
+    "preserve_margins": true,
+    "preserve_fonts": true,
+    "required_commands": [
+      "\\maketitle",
+      "\\authorrefmark",
+      "\\address",
+      "\\corresp",
+      "\\tfootnote",
+      "\\history",
+      "\\doi",
+      "\\titlepgskip",
+      "\\EOD"
+    ],
+    "required_assets": [
+      "logo.png",
+      "notaglinelogo.png",
+      "bullet.png"
+    ]
+  }
+}

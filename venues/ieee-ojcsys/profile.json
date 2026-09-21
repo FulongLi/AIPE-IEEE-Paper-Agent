@@ -1,0 +1,46 @@
+{
+  "schema_version": 1,
+  "id": "ieee-ojcsys",
+  "family": "journal",
+  "document_class": {
+    "name": "IEEEojcsys",
+    "options": []
+  },
+  "template": {
+    "path": "venues/ieee-ojcsys/template",
+    "entry": "OJCSYS_template.tex",
+    "encoding": "utf-8"
+  },
+  "bibliography": {
+    "style": "IEEEtran"
+  },
+  "layout": {
+    "columns": 2
+  },
+  "requirements": {
+    "abstract": true,
+    "keywords": true
+  },
+  "normalization": {
+    "body_start": "\\section{INTRODUCTION}",
+    "keywords_environment": "IEEEkeywords",
+    "placeholder_environments": [],
+    "end_commands": []
+  },
+  "checks": {
+    "preserve_class": true,
+    "preserve_margins": true,
+    "preserve_fonts": true,
+    "required_commands": [
+      "\\maketitle",
+      "\\affilmark",
+      "\\affil",
+      "\\corresp",
+      "\\sptitle",
+      "\\editor"
+    ],
+    "required_assets": [
+      "ojcsys-logo.jpg"
+    ]
+  }
+}

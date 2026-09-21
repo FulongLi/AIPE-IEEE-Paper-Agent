@@ -10,6 +10,8 @@ from datetime import datetime, timezone
 from pathlib import Path
 from typing import Iterable
 
+from venue_profiles import asset_root
+
 
 FIELD_RE = re.compile(r"(\w+)\s*=\s*([{\"])")
 AUTHOR_SPLIT_RE = re.compile(r"\s+and\s+", re.IGNORECASE)
@@ -174,7 +176,7 @@ def build_index(ref_dir: Path) -> dict[str, object]:
     return {
         "schema_version": "1.0",
         "generated_at": datetime.now(timezone.utc).replace(microsecond=0).isoformat(),
-        "source_directory": display_path(ref_dir),
+        "source_directory": ref_dir.name,
         "record_count": len(records),
         "duplicate_key_count": len(duplicate_keys),
         "verification_status_counts": dict(sorted(status_counts.items())),
@@ -185,16 +187,17 @@ def build_index(ref_dir: Path) -> dict[str, object]:
 
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("--ref-dir", default="PE_IEEE_reference", help="directory containing .bib files")
-    parser.add_argument("--output", default="PE_IEEE_reference/references-index.json", help="output JSON path")
+    parser.add_argument("--ref-dir", help="directory containing .bib files; default: bundled PE collection")
+    parser.add_argument("--output", help="output JSON path; default: <ref-dir>/references-index.json")
     args = parser.parse_args()
 
-    ref_dir = Path(args.ref_dir).resolve()
-    output = Path(args.output).resolve()
+    ref_dir = Path(args.ref_dir).resolve() if args.ref_dir else asset_root() / "PE_IEEE_reference"
+    output = Path(args.output).resolve() if args.output else ref_dir / "references-index.json"
     if not ref_dir.is_dir():
         raise SystemExit(f"reference directory not found: {ref_dir}")
 
     index = build_index(ref_dir)
+    output.parent.mkdir(parents=True, exist_ok=True)
     output.write_text(json.dumps(index, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
     print(f"wrote {output}")
     print(f"records: {index['record_count']}")

@@ -1,0 +1,3 @@
+# Preserve upstream venue assets byte-for-byte, including mixed line endings.
+venues/**/template/** -text
+venues/archive/** -text
