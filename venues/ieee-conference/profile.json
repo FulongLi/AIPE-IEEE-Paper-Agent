@@ -1,0 +1,41 @@
+{
+  "schema_version": 1,
+  "id": "ieee-conference",
+  "family": "conference",
+  "document_class": {
+    "name": "IEEEtran",
+    "options": [
+      "conference"
+    ]
+  },
+  "template": {
+    "path": "venues/ieee-conference/template",
+    "entry": "IEEE-conference-template-062824.tex",
+    "encoding": "utf-8"
+  },
+  "bibliography": {
+    "style": "IEEEtran"
+  },
+  "layout": {
+    "columns": 2
+  },
+  "requirements": {
+    "abstract": true,
+    "keywords": true
+  },
+  "normalization": {
+    "body_start": "\\section{Introduction}",
+    "keywords_environment": "IEEEkeywords",
+    "placeholder_environments": [],
+    "end_commands": []
+  },
+  "checks": {
+    "preserve_class": true,
+    "preserve_margins": true,
+    "preserve_fonts": true,
+    "required_commands": [
+      "\\maketitle"
+    ],
+    "required_assets": []
+  }
+}

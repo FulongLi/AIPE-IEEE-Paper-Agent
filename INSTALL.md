@@ -1,123 +1,104 @@
-﻿# Installing AIPE IEEE Paper Agent
+# Installing AIPE IEEE Paper Agent
 
-This repository supports three installation paths:
+Use the full repository or a generated self-contained package. `core/` is the
+canonical instruction source, with sibling venue/domain/artifact/script assets;
+copying `core/SKILL.md` alone is not a complete installation.
 
-1. Codex skill from GitHub.
-2. Codex plugin marketplace package.
-3. Claude-compatible skill ZIP.
+## Repository Mode
 
-## For Codex Users
+Open this repository in Codex or Claude and start with `AGENTS.md` and
+`core/SKILL.md`. Python tools require Python 3.10+ with no external dependencies.
+PDF builds require a separate LaTeX installation, or upload a generated workspace
+to Overleaf and select `main.tex`.
 
-### Simple GitHub Skill Install
+## Build or Download a Release
 
-Ask Codex:
+Use release artifacts, or build them from the repository root:
 
-```text
-Install the skill from this GitHub repository:
-<owner>/<repo>, path: skills/ieee-paper-latex-writing
+```bash
+python scripts/package-release.py
 ```
 
-Restart Codex after installation.
+All six supported venue profiles/templates and the optional power-electronics
+pack/reference library are included by default. To omit the domain and limit venues:
 
-This installs the source skill. It is best when the user will also open this full repository, or when the workflow guidance is enough.
-
-Copy-ready prompt:
-
-```text
-Please install the Codex skill from GitHub repo <owner>/<repo> at path skills/ieee-paper-latex-writing. After installing, remind me to restart Codex.
+```bash
+python scripts/package-release.py --without-domain --venue ieee-access --venue ieee-ojpel --dist dist/generic
 ```
 
-### Full Codex Skill Package
+The packager generates portable `references/` from `core/workflows/` and
+`core/policies/`, renders `core/SKILL.md` with portable paths, and copies relevant
+assets plus runtime scripts. `generated-sources.json` identifies canonical sources.
+Never maintain or edit generated instruction copies independently.
 
-Use the release artifact:
+## Codex Skill
 
-```text
-ieee-paper-latex-writing-codex-skill-v<version>.zip
-```
+Extract `ieee-paper-latex-writing-codex-skill-v<version>.zip` into
+`~/.codex/skills/` (Windows: `C:\Users\<you>\.codex\skills\`). The result should be
+`~/.codex/skills/ieee-paper-latex-writing/SKILL.md`. Restart Codex after installation.
+The previous source-only GitHub skill path is no longer maintained; use this full
+package or repository mode so venue profiles and scripts are available.
 
-Unzip the folder into:
+## Codex Plugin Marketplace
 
-```text
-~/.codex/skills/
-```
-
-On Windows this is usually:
-
-```text
-C:\Users\<you>\.codex\skills\
-```
-
-Restart Codex after installation.
-
-This package includes the skill plus repository assets such as workflows, templates, power electronics references, and scripts.
-
-### Codex Plugin Marketplace Package
-
-Use the release artifact:
-
-```text
-aipe-ieee-paper-agent-codex-plugin-marketplace-v<version>.zip
-```
-
-Unzip it to a stable local folder. Then add the local marketplace:
+Extract `aipe-ieee-paper-agent-codex-plugin-marketplace-v<version>.zip` into a stable
+local folder and add its marketplace using the existing plugin installation flow:
 
 ```bash
 codex plugin marketplace add <path-to-unzipped-codex-plugin-marketplace>
 codex plugin add aipe-ieee-paper-agent@aipe-local
 ```
 
-Start a new Codex thread after installing or updating the plugin.
+Start a new Codex task after installation/update. The plugin's skill contains its
+own `references/`, `scripts/`, and `assets/`, so resource lookup stays local to the skill.
 
-## For Claude Users
+## Claude Skill
 
-Use the release artifact:
-
-```text
-aipe-ieee-paper-agent-claude-skill-v<version>.zip
-```
-
-Upload or install the ZIP as a Claude skill, depending on the Claude product surface you are using. The package root contains `SKILL.md`, `references/`, `scripts/`, and `assets/`.
-
-Copy-ready prompt after upload:
+Use `aipe-ieee-paper-agent-claude-skill-v<version>.zip` through the skill installation
+surface supported by your Claude product. The archive contains one skill folder
+with `SKILL.md`, `references/`, `scripts/`, and `assets/`.
 
 ```text
-Use the AIPE IEEE Paper Agent skill. Turn this paper plan into an IEEE manuscript workspace, verify citations from the bundled reference index, and mark missing experiments instead of inventing results.
+Use the IEEE paper-production skill. Turn this plan into a manuscript for
+ieee-transactions. Verify reference sources and mark missing evidence as TODOs.
 ```
 
-## Maintainer Release Workflow
+## Running Installed Tools
 
-1. Update the source materials:
-   - `skills/ieee-paper-latex-writing/`
-   - `workflows/`
-   - `templates/`
-   - `knowledge-base/`
-   - `PE_IEEE_reference/*.bib`
-   - `scripts/`
-
-2. Update `VERSION` using semantic versioning:
-
-```text
-0.1.0
-```
-
-3. Rebuild the reference index and release packages:
+From another working directory, invoke the script using its installed absolute
+path. For example, substitute your skill directory below:
 
 ```bash
+python <skill-dir>/scripts/create-manuscript.py my-paper --venue ieee-access --root <output-dir>
+python <skill-dir>/scripts/check-citations.py <output-dir>/manuscripts/my-paper --write-audit
+python <skill-dir>/scripts/check-latex.py <output-dir>/manuscripts/my-paper
+```
+
+The output root does not need a checkout or any assets. `--domain power-electronics`
+is available only when that pack is included. The index builder defaults to the
+bundled library; generic packages can instead pass `--ref-dir` for user references.
+
+## Maintainers
+
+Edit `core/`, `venues/` profiles, `domains/`, `artifacts/`, and `scripts/` as needed;
+preserve official template/support files. Keep the existing `PE_IEEE_reference/`
+collection and rebuild its index after BibTeX changes. Curated domain notes may be
+packaged; raw extraction/private caches and source books are excluded.
+
+Before release run:
+
+```bash
+python -m unittest discover -s tests -v
+python scripts/build-reference-index.py
 python scripts/package-release.py
 ```
 
-The packaging script automatically runs:
+Tests initialize every venue, check actual template differences and relative
+paths, exercise citation/index behavior, verify official template checksums, and
+extract/run all three release formats from an unrelated working directory.
+Compile and visually inspect completed manuscripts separately; static validation
+does not claim PDF compilation or publication readiness.
 
-```bash
-python scripts/build-reference-index.py
-```
-
-4. Upload the generated ZIP files from `dist/` to the GitHub release.
-
-5. Tell users to install from the newest release artifact or ask Codex to install from the GitHub skill path.
-
-## Versioning Notes
-
-- Use patch versions for reference additions, prompt updates, and minor workflow fixes.
-- Use minor versions for new scripts, new workflows, or changed manuscript structure.
-- Use major versions only when old prompts or generated manuscript layouts may no longer behave the same way.
+Update `VERSION` for releases and upload the three ZIPs in `dist/` as appropriate.
+Use patch versions for small content fixes, minor versions for new workflows/tools,
+and major versions for incompatible established workflows.

@@ -2,7 +2,7 @@
   "plugin_name": "aipe-ieee-paper-agent",
   "skill_name": "ieee-paper-latex-writing",
   "display_name": "AIPE IEEE Paper Agent",
-  "description": "Plan, draft, organize, and audit IEEE-style LaTeX research papers with power electronics references and citation checks.",
+  "description": "Plan, draft, and audit IEEE papers with venue-specific LaTeX templates and optional domain knowledge.",
   "developer_name": "AIPE IEEE Paper Agent Maintainers",
   "category": "Productivity",
   "license": "MIT",
@@ -19,4 +19,3 @@
     "Create a paper plan from this power electronics idea."
   ]
 }
-

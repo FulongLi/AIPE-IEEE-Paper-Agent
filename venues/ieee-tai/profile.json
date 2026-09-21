@@ -1,0 +1,44 @@
+{
+  "schema_version": 1,
+  "id": "ieee-tai",
+  "family": "journal",
+  "document_class": {
+    "name": "IEEEtai",
+    "options": [
+      "journal"
+    ]
+  },
+  "template": {
+    "path": "venues/ieee-tai/template",
+    "entry": "TAI_template.tex",
+    "encoding": "latin-1"
+  },
+  "bibliography": {
+    "style": "IEEEtran"
+  },
+  "layout": {
+    "columns": 2
+  },
+  "requirements": {
+    "abstract": true,
+    "keywords": true
+  },
+  "normalization": {
+    "body_start": "\\section{Introduction}",
+    "keywords_environment": "IEEEkeywords",
+    "placeholder_environments": [
+      "IEEEImpStatement"
+    ],
+    "end_commands": []
+  },
+  "checks": {
+    "preserve_class": true,
+    "preserve_margins": true,
+    "preserve_fonts": true,
+    "required_commands": [
+      "\\maketitle",
+      "\\begin{IEEEImpStatement}"
+    ],
+    "required_assets": []
+  }
+}

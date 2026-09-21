@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "id": "ieee-ojpel",
+  "family": "journal",
+  "document_class": {
+    "name": "ieeeojpel",
+    "options": []
+  },
+  "template": {
+    "path": "venues/ieee-ojpel/template",
+    "entry": "ojpel.tex",
+    "encoding": "utf-8"
+  },
+  "bibliography": {
+    "style": "IEEEtran"
+  },
+  "layout": {
+    "columns": 2
+  },
+  "requirements": {
+    "abstract": true,
+    "keywords": true
+  },
+  "normalization": {
+    "body_start": "\\section{INTRODUCTION}",
+    "keywords_environment": "IEEEkeywords",
+    "placeholder_environments": [],
+    "end_commands": []
+  },
+  "checks": {
+    "preserve_class": true,
+    "preserve_margins": true,
+    "preserve_fonts": true,
+    "required_commands": [
+      "\\maketitle",
+      "\\OJlogo",
+      "\\affil",
+      "\\corresp",
+      "\\authornote",
+      "\\receiveddate",
+      "\\doiinfo"
+    ],
+    "required_assets": [
+      "ojpel-logo.png"
+    ]
+  }
+}

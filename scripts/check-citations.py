@@ -7,6 +7,8 @@ import argparse
 import re
 from pathlib import Path
 
+from venue_profiles import strip_comments
+
 
 CITE_RE = re.compile(r"\\cite(?:[a-zA-Z*]*)?(?:\[[^\]]*\]){0,2}\{([^}]+)\}")
 BIB_RE = re.compile(r"@\w+\s*\{\s*([^,\s]+)", re.MULTILINE)
@@ -21,7 +23,7 @@ def collect_citations(root: Path) -> dict[str, set[str]]:
     for tex in root.rglob("*.tex"):
         if "build" in tex.parts:
             continue
-        text = read_text(tex)
+        text = strip_comments(read_text(tex))
         for match in CITE_RE.finditer(text):
             for key in match.group(1).split(","):
                 clean = key.strip()
@@ -35,11 +37,12 @@ def collect_bib_keys(root: Path) -> dict[str, set[str]]:
     for bib in root.rglob("*.bib"):
         if "build" in bib.parts:
             continue
-        text = read_text(bib)
+        text = re.sub(r"(?m)^%.*$", "", read_text(bib))
         for match in BIB_RE.finditer(text):
             key = match.group(1).strip()
             if key:
-                keys.setdefault(key, set()).add(str(bib.relative_to(root)))
+                line = text.count("\n", 0, match.start()) + 1
+                keys.setdefault(key, set()).add(f"{bib.relative_to(root).as_posix()}:{line}")
     return keys
 
 
@@ -69,6 +72,14 @@ def write_audit(root: Path, citations: dict[str, set[str]], bib_keys: dict[str, 
     if not uncited:
         lines.append("- None.")
 
+    lines.extend(["", "## Duplicate Citation Keys", ""])
+    duplicates = {key: files for key, files in bib_keys.items() if len(files) > 1}
+    lines.extend(f"- {key}: {', '.join(sorted(files))}." for key, files in sorted(duplicates.items()))
+    if not duplicates:
+        lines.append("- None.")
+    lines.extend(["", "## Verification Needed", "",
+                  "Key resolution is not metadata or DOI/URL verification. Review source records and claim support.",
+                  "Keep manual source verification notes in notes/citation-verification.md; this audit is regenerated."])
     (notes / "citation-audit.md").write_text("\n".join(lines) + "\n", encoding="utf-8")
 
 
@@ -86,12 +97,16 @@ def main() -> int:
     bib_keys = collect_bib_keys(root)
     missing = sorted(set(citations) - set(bib_keys))
     uncited = sorted(set(bib_keys) - set(citations))
+    duplicates = sorted(key for key, files in bib_keys.items() if len(files) > 1)
 
     print(f"citations: {len(citations)}")
     print(f"bib entries: {len(bib_keys)}")
     print(f"missing bib entries: {len(missing)}")
     for key in missing:
         print(f"  missing: {key}")
+    print(f"duplicate bib keys: {len(duplicates)}")
+    for key in duplicates:
+        print(f"  duplicate: {key}")
     print(f"uncited bib entries: {len(uncited)}")
     for key in uncited:
         print(f"  uncited: {key}")
@@ -99,7 +114,7 @@ def main() -> int:
     if args.write_audit:
         write_audit(root, citations, bib_keys)
 
-    return 1 if missing else 0
+    return 1 if missing or duplicates else 0
 
 
 if __name__ == "__main__":
