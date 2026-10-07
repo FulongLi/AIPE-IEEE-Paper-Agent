@@ -164,3 +164,7 @@ python scripts/package-release.py --without-domain --venue ieee-transactions --d
 Semantic/RAG literature search, web synchronization of venue rules, automatic
 experimental results, advanced paper scoring, and multi-agent orchestration are
 outside this architecture consolidation.
+
+## AIPE ecosystem
+
+[Capability manifest](aipe.yaml) and [Core evidence mapping](docs/aipe-integration.md) make this research agent discoverable without changing the paper-production engine or venue templates.
